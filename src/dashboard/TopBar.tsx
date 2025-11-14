@@ -1,7 +1,12 @@
+import { useLocation } from 'react-router-dom';
+import { settingsMenu } from '../settings/settingsMenuData';
 import { useDashboardContext } from './Provider';
-
 export function TopBar() {
   const { openSidebar } = useDashboardContext();
+  const location = useLocation();
+
+  const activeItem = settingsMenu.flatMap(s => s.items).find(i => i.path === location.pathname);
+
   return (
     <header className="relative z-10 h-16 w-full items-center bg-white shadow md:h-20">
       <div className="relative mx-auto flex h-full flex-col justify-center px-3">
@@ -17,6 +22,14 @@ export function TopBar() {
               >
                 &#8801;
               </button>
+
+              <span className="text-gray-700 font-semibold">ABC Group Ltd</span>
+              {activeItem && (
+                <div className="flex items-center space-x-2">
+                  <activeItem.icon className="w-5 h-5 text-gray-700" />
+                  <span className="text-gray-700 font-medium">{activeItem.name}</span>
+                </div>
+              )}
             </div>
           </div>
           <div className="relative ml-5 flex w-full items-center justify-end p-1 sm:right-auto sm:mr-0">
