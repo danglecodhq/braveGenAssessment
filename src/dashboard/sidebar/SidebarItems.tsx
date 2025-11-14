@@ -1,33 +1,25 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useDashboardContext } from '../Provider';
 import { data } from './data';
 
 const style = {
-  title: 'mx-4 text-sm whitespace-pre',
   inactive: 'text-white',
   active: 'font-medium text-green-400 hover:text-green-400',
-  link: 'flex items-center justify-start my-2 p-4 w-full hover:text-white',
-  close: 'lg:duration-700 lg:ease-out lg:invisible lg:opacity-0 lg:transition-all',
-  open: 'lg:duration-500 lg:ease-in lg:h-auto lg:opacity-100 lg:transition-all lg:w-auto',
+  link: 'flex flex-col items-center justify-center p-4 w-full hover:text-white',
 };
 
 export function SidebarItems() {
   const { pathname } = useLocation();
-  const { sidebarOpen } = useDashboardContext();
 
   return (
-    <ul className="flex flex-col flex-grow md:pl-5">
+    <ul className="flex grow flex-col">
       {data.map((item, index) => (
         <li key={item.title} className={index === data.length - 1 ? 'mt-auto' : ''}>
           <Link to={item.link}>
             <span
-              className={`${style.link} ${item.link === pathname ? style.active : style.inactive}
-               `}
+              className={`${style.link} ${item.link === pathname ? style.active : style.inactive}`}
             >
-              <span>{item.icon}</span>
-              <span className={`${style.title} ${sidebarOpen ? style.open : style.close}`}>
-                {item.title}
-              </span>
+              <span className="text-xl">{item.icon}</span>
+              <span className="mt-2 text-center text-xs">{item.title}</span>
             </span>
           </Link>
         </li>

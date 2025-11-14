@@ -1,7 +1,6 @@
 import { ActionsIcon } from './icons/ActionsIcon';
 import { CarbonIcon } from './icons/CarbonIcon';
 import { CollectIcon } from './icons/CollectIcon';
-import { DocIcon } from './icons/DocIcon';
 import { InsightIcon } from './icons/InsightIcon';
 import { ReportsIcon } from './icons/ReportsIcon';
 import { ReviewsIcon } from './icons/ReviewsIcon';
@@ -43,11 +42,6 @@ export const data = [
     title: 'Actions',
     icon: <ActionsIcon />,
     link: '/admin/actions',
-  },
-  {
-    title: 'Documentation',
-    icon: <DocIcon />,
-    link: '/admin/documentation',
   },
   {
     title: 'Settings',
