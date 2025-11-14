@@ -1,3 +1,6 @@
+import { HomeIcon } from '../../../dashboard/sidebar/icons/HomeIcon';
+import { IntegrationsIcon } from '../../../dashboard/sidebar/icons/IntegrationsIcon';
+import { UsersIcon } from '../../../dashboard/sidebar/icons/UsersIcon';
 /**
  * Local lightweight SVG icon components to avoid depending on '@heroicons/react'
  * Each accepts an optional className so existing usage (<item.icon className="..."/>) still works.
@@ -174,10 +177,10 @@ export const settingsMenu = [
   {
     section: 'Organisation',
     items: [
-      { name: 'Manage', icon: Squares2X2Icon, path: '/admin/settings/manage' },
-      { name: 'Users', icon: UserIcon, path: '/admin/settings/users' },
+      { name: 'Manage', icon: HomeIcon, path: '/admin/settings/manage' },
+      { name: 'Users', icon: UsersIcon, path: '/admin/settings/users' },
       { name: 'Tags', icon: TagIcon, path: '/admin/settings/tags' },
-      { name: 'Integrations', icon: Cog6ToothIcon, path: '/admin/settings/integrations' },
+      { name: 'Integrations', icon: IntegrationsIcon, path: '/admin/settings/integrations' },
     ],
   },
   {
