@@ -3,14 +3,15 @@ import { ApplicationIcon } from './icons/ApplicationIcon';
 import { BillsIcon } from './icons/BillsIcon';
 import { DemographicIcon } from './icons/DemographicIcon';
 import { DocIcon } from './icons/DocIcon';
-import { HomeIcon } from './icons/HomeIcon';
+import { InsightIcon } from './icons/InsightIcon';
 import { MonitoringIcon } from './icons/MonitoringIcon';
+import { SettingIcon } from './icons/SettingIcon';
 
 export const data = [
   {
-    title: 'Home',
-    icon: <HomeIcon />,
-    link: '/',
+    title: 'Insights',
+    icon: <InsightIcon />,
+    link: '/admin/insights',
   },
   {
     title: 'Bills',
@@ -46,5 +47,10 @@ export const data = [
     title: 'Documentation',
     icon: <DocIcon />,
     link: '/admin/documentation',
+  },
+  {
+    title: 'Settings',
+    icon: <SettingIcon />,
+    link: '/admin/Settings',
   },
 ];
