@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { settingsMenu } from '../settings/settingsMenuData';
+import { settingsMenu } from '../pages/admin/settings/settingsMenuData';
 import { useDashboardContext } from './Provider';
 export function TopBar() {
   const { openSidebar } = useDashboardContext();

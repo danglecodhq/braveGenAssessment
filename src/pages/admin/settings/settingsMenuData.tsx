@@ -111,31 +111,95 @@ export const CubeIcon = (props: { className?: string }) => (
     />
   </svg>
 );
+export const CameraIcon = (props: { className?: string }) => (
+  <svg
+    className={props.className}
+    viewBox="0 0 24 24"
+    fill="none"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 7h3l2-3h6l2 3h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V9a2 2 0 012-2z"
+      stroke="currentColor"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      fill="none"
+    />
+    <circle
+      cx="12"
+      cy="13"
+      r="3"
+      stroke="currentColor"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      fill="none"
+    />
+  </svg>
+);
+export const ComputerDesktopIcon = (props: { className?: string }) => (
+  <svg
+    className={props.className}
+    viewBox="0 0 24 24"
+    fill="none"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      x="3"
+      y="4"
+      width="18"
+      height="12"
+      rx="2"
+      stroke="currentColor"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      fill="none"
+    />
+    <path
+      d="M8 20h8M10 16v4M14 16v4"
+      stroke="currentColor"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      fill="none"
+    />
+  </svg>
+);
+
 export const settingsMenu = [
   {
     section: 'Organisation',
     items: [
-      { name: 'Manage', icon: Squares2X2Icon, path: '/settings/manage' },
-      { name: 'Users', icon: UserIcon, path: '/settings/users' },
-      { name: 'Tags', icon: TagIcon, path: '/settings/tags' },
-      { name: 'Integrations', icon: Cog6ToothIcon, path: '/settings/integrations' },
+      { name: 'Manage', icon: Squares2X2Icon, path: '/admin/settings/manage' },
+      { name: 'Users', icon: UserIcon, path: '/admin/settings/users' },
+      { name: 'Tags', icon: TagIcon, path: '/admin/settings/tags' },
+      { name: 'Integrations', icon: Cog6ToothIcon, path: '/admin/settings/integrations' },
     ],
   },
   {
     section: 'Utilities',
     items: [
-      { name: 'Configuration', icon: Cog6ToothIcon, path: '/settings/configuration' },
-      { name: 'Hierarchy', icon: CubeIcon, path: '/settings/hierarchy' },
-      { name: 'Assets', icon: Squares2X2Icon, path: '/settings/assets' },
+      { name: 'Configuration', icon: Cog6ToothIcon, path: '/admin/settings/configuration' },
+      { name: 'Hierarchy', icon: CubeIcon, path: '/admin/settings/hierarchy' },
+      { name: 'Assets', icon: Squares2X2Icon, path: '/admin/settings/assets' },
     ],
   },
   {
     section: 'Carbon',
     items: [
-      { name: 'Configuration', icon: Cog6ToothIcon, path: '/settings/carbon/configuration' },
-      { name: 'Hierarchy', icon: CubeIcon, path: '/settings/carbon/hierarchy' },
-      { name: 'Inventory Items', icon: Squares2X2Icon, path: '/settings/carbon/inventory' },
-      { name: 'Emission Factors', icon: Squares2X2Icon, path: '/settings/carbon/emission' },
+      { name: 'Configuration', icon: Cog6ToothIcon, path: '/admin/settings/carbon/configuration' },
+      { name: 'Hierarchy', icon: CubeIcon, path: '/admin/settings/carbon/hierarchy' },
+      { name: 'Inventory Items', icon: Squares2X2Icon, path: '/admin/settings/carbon/inventory' },
+      { name: 'Emission Factors', icon: Squares2X2Icon, path: '/admin/settings/carbon/emission' },
+      { name: 'Snapshots', icon: CameraIcon, disabled: true }, // Disabled item
     ],
+  },
+  {
+    section: 'Displays',
+    items: [{ name: 'Manage', icon: ComputerDesktopIcon, path: '/admin/settings/displays/manage' }],
   },
 ];
