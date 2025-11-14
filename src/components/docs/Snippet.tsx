@@ -11,12 +11,7 @@ export function Snippet() {
     title: "Bills",
     icon: <BillsIcon />,
     link: "/admin/bills",
-  },
-  {
-    title: "Bills 2",
-    icon: <BillsIcon />,
-    link: "/admin/bills2",
-  },
+  } 
 ]
 `}
     </pre>

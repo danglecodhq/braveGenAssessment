@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
-import { data } from './data';
 import { useDashboardContext } from '../Provider';
+import { data } from './data';
 
 const style = {
   title: 'mx-4 text-sm whitespace-pre',
@@ -16,9 +16,9 @@ export function SidebarItems() {
   const { sidebarOpen } = useDashboardContext();
 
   return (
-    <ul className="md:pl-5">
-      {data.map(item => (
-        <li key={item.title}>
+    <ul className="flex flex-col flex-grow md:pl-5">
+      {data.map((item, index) => (
+        <li key={item.title} className={index === data.length - 1 ? 'mt-auto' : ''}>
           <Link to={item.link}>
             <span
               className={`${style.link} ${item.link === pathname ? style.active : style.inactive}
