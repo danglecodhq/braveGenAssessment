@@ -26,6 +26,7 @@ export const IntegrationTable: React.FC = () => {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState<Integration | null>(null);
+  const [sortAsc, setSortAsc] = useState(true);
 
   const itemsPerPage = 10;
   const filteredData = data.filter(
@@ -50,6 +51,16 @@ export const IntegrationTable: React.FC = () => {
     setShowDeleteModal(false);
   };
 
+  const sortByIntegration = () => {
+    const sorted = [...data].sort((a, b) => {
+      if (a.integration < b.integration) return sortAsc ? -1 : 1;
+      if (a.integration > b.integration) return sortAsc ? 1 : -1;
+      return 0;
+    });
+    setData(sorted);
+    setSortAsc(!sortAsc);
+  };
+
   return (
     <div className="p-4">
       <input
@@ -62,7 +73,11 @@ export const IntegrationTable: React.FC = () => {
       <table className="min-w-full border border-gray-300">
         <thead>
           <tr className="bg-gray-100">
-            <th className="p-2">Integration</th>
+            <th className="p-2 cursor-pointer" onClick={sortByIntegration}>
+              Integration
+              <span className="ml-1">{sortAsc ? '↓' : '↑'}</span>
+            </th>
+
             <th className="p-2">Name</th>
             <th className="p-2">Source</th>
             <th className="p-2">Entity/Group</th>
@@ -75,7 +90,7 @@ export const IntegrationTable: React.FC = () => {
         <tbody>
           {currentData.map(item => (
             <tr key={item.id} className="border-t">
-              <td className="p-2">{item.integration}</td>
+              <td className="p-2 truncate max-w-[150px]">{item.integration}</td>
               <td className="p-2">{item.name}</td>
               <td className="p-2">
                 <span
