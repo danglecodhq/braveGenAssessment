@@ -1,5 +1,5 @@
 import IntegrationCard from '../../../components/IntegrationCard';
-
+import IntegrationTable from '../../../components/IntegrationTable';
 // Import your images from assets
 import amazonImg from '@assets/icons/amazon.png';
 import kafkaImg from '@assets/icons/kafka.png';
@@ -57,6 +57,9 @@ export default function IntegrationsSettingsPage() {
           />
         ))}
       </div>
+      <h3 className="text-2xl font-semibold text-gray-800 mb-4">TEst table below</h3>
+
+      <IntegrationTable />
     </div>
   );
 }
