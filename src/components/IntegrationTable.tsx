@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { integrations } from '../data/integrations';
 
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 type Integration = {
   id: number;
   integration: string;
@@ -102,9 +105,20 @@ export const IntegrationTable: React.FC = () => {
                 </span>
               </td>
               <td className="p-2">{item.entity_group}</td>
+
               <td className="p-2">{item.interval}</td>
               <td className="p-2 text-blue-600 cursor-pointer">{item.connector_url}</td>
-              <td className="p-2 text-blue-600 cursor-pointer">{item.instructions}</td>
+
+              <td className="p-2 text-blue-600 cursor-pointer relative group">
+                <span className="underline">View</span>
+                <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
+
+                {/* Tooltip */}
+                <div className="absolute left-0 top-full mt-1 hidden group-hover:block bg-white text-black text-sm p-2 rounded w-64 z-10 mx-auto">
+                  {item.instructions}
+                </div>
+              </td>
+
               <td className="p-2">
                 <button
                   onClick={() => {
