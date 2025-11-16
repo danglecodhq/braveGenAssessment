@@ -77,93 +77,94 @@ export const IntegrationTable: React.FC = () => {
             placeholder="Integration or Name"
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="border border-gray-300 rounded-lg pl-10 pr-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="text-sm border border-gray-300 rounded-lg pl-10 pr-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
       </div>
+      <div className="overflow-hidden rounded-lg border border-gray-300 bg-white">
+        <table className="min-w-full  text-sm">
+          <thead>
+            <tr className="bg-white">
+              <th className="p-2 cursor-pointer" onClick={sortByIntegration}>
+                Integration
+                <span className="ml-1">{sortAsc ? '↓' : '↑'}</span>
+              </th>
 
-      <table className="min-w-full border border-gray-300">
-        <thead>
-          <tr className="bg-gray-100">
-            <th className="p-2 cursor-pointer" onClick={sortByIntegration}>
-              Integration
-              <span className="ml-1">{sortAsc ? '↓' : '↑'}</span>
-            </th>
-
-            <th className="p-2">Name</th>
-            <th className="p-2">Source</th>
-            <th className="p-2">Entity/Group</th>
-            <th className="p-2">Interval</th>
-            <th className="p-2">Connector URL</th>
-            <th className="p-2">Instructions</th>
-            <th className="p-2">Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {currentData.map(item => (
-            <tr key={item.id} className="border-t">
-              <td className="p-2 truncate max-w-[150px]">{item.integration}</td>
-              <td className="p-2">{item.name}</td>
-              <td className="p-2">
-                <span
-                  className={`text-white px-2 py-1 rounded ${
-                    badgeColors[item.source] || 'bg-gray-500'
-                  }`}
-                >
-                  {item.source}
-                </span>
-              </td>
-              <td className="p-2">{item.entity_group}</td>
-
-              <td className="p-2">{item.interval}</td>
-              <td className="p-2 text-blue-600 cursor-pointer">{item.connector_url}</td>
-
-              <td className="p-2 text-blue-600 cursor-pointer relative group">
-                <span className="underline">View</span>
-                <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
-
-                {/* Tooltip */}
-                <div className="absolute left-0 top-full mt-1 hidden group-hover:block bg-gray-100 text-black text-sm p-2 rounded w-64 z-10 mx-auto">
-                  {item.instructions}
-                </div>
-              </td>
-
-              <td className="p-2">
-                <button
-                  onClick={() => {
-                    setSelectedItem(item);
-                    setShowEditModal(true);
-                  }}
-                  className="mr-2 text-gray-600"
-                >
-                  ✏️
-                </button>
-                <button onClick={() => handleDelete(item)} className="text-red-600">
-                  🗑️
-                </button>
-              </td>
+              <th className="p-2">Name</th>
+              <th className="p-2">Source</th>
+              <th className="p-2">Entity/Group</th>
+              <th className="p-2">Interval</th>
+              <th className="p-2">Connector URL</th>
+              <th className="p-2">Instructions</th>
+              <th className="p-2">Actions</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-      <div className="flex justify-between mt-4">
-        <button
-          disabled={currentPage === 1}
-          onClick={() => setCurrentPage(p => p - 1)}
-          className="px-4 py-2 border"
-        >
-          Previous
-        </button>
-        <span>
-          Page {currentPage} of {totalPages}
-        </span>
-        <button
-          disabled={currentPage === totalPages}
-          onClick={() => setCurrentPage(p => p + 1)}
-          className="px-4 py-2 border"
-        >
-          Next
-        </button>
+          </thead>
+          <tbody>
+            {currentData.map(item => (
+              <tr key={item.id} className="border-t">
+                <td className="p-2 truncate max-w-[150px]">{item.integration}</td>
+                <td className="p-2">{item.name}</td>
+                <td className="p-2">
+                  <span
+                    className={`text-white px-2 py-1 rounded ${
+                      badgeColors[item.source] || 'bg-gray-500'
+                    }`}
+                  >
+                    {item.source}
+                  </span>
+                </td>
+                <td className="p-2">{item.entity_group}</td>
+
+                <td className="p-2">{item.interval}</td>
+                <td className="p-2 text-blue-600 cursor-pointer">{item.connector_url}</td>
+
+                <td className="p-2 text-blue-600 cursor-pointer relative group">
+                  <span className="underline">View</span>
+                  <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
+
+                  {/* Tooltip */}
+                  <div className="absolute left-0 top-full mt-1 hidden group-hover:block bg-gray-100 text-black text-sm p-2 rounded w-64 z-10 mx-auto">
+                    {item.instructions}
+                  </div>
+                </td>
+
+                <td className="p-2">
+                  <button
+                    onClick={() => {
+                      setSelectedItem(item);
+                      setShowEditModal(true);
+                    }}
+                    className="mr-2 text-gray-600"
+                  >
+                    ✏️
+                  </button>
+                  <button onClick={() => handleDelete(item)} className="text-red-600">
+                    🗑️
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <div className="flex justify-between mt-4 text-sm p-4">
+          <button
+            disabled={currentPage === 1}
+            onClick={() => setCurrentPage(p => p - 1)}
+            className="px-4 py-2 border"
+          >
+            Previous
+          </button>
+          <span>
+            Page {currentPage} of {totalPages}
+          </span>
+          <button
+            disabled={currentPage === totalPages}
+            onClick={() => setCurrentPage(p => p + 1)}
+            className="px-4 py-2 border"
+          >
+            Next
+          </button>
+        </div>
       </div>
 
       {showDeleteModal && (
