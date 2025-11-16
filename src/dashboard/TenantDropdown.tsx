@@ -1,4 +1,4 @@
-import { faChevronDown, faChevronUp, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCircleArrowDown, faCircleArrowUp, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 
@@ -36,11 +36,11 @@ const TenantDropdown: React.FC<TenantDropdownProps> = ({
       {/* Collapsed Button */}
       <button
         onClick={() => setisTenantDropdownOpen(!isTenantDropdownOpen)}
-        className="flex items-center space-x-2 px-3 py-1 border rounded-md hover:bg-gray-50"
+        className="flex items-center justify-between px-3 py-1 border rounded-md hover:bg-gray-50 min-w-[280px] mr-2"
       >
         <span className="text-gray-700 font-semibold">{selectedTenant}</span>
         <FontAwesomeIcon
-          icon={isTenantDropdownOpen ? faChevronUp : faChevronDown}
+          icon={isTenantDropdownOpen ? faCircleArrowUp : faCircleArrowDown}
           className="text-gray-500 w-4 h-4"
         />
       </button>
@@ -51,11 +51,11 @@ const TenantDropdown: React.FC<TenantDropdownProps> = ({
           {/* Header */}
           <div className="bg-green-600 text-white px-4 py-2 font-semibold flex justify-between items-center">
             <span>{selectedTenant}</span>
-            <FontAwesomeIcon icon={faChevronUp} />
+            <FontAwesomeIcon icon={faCircleArrowUp} />
           </div>
 
           {/* Fixed Links */}
-          <div className="px-4 py-2 text-sm text-gray-700 space-y-1 border-b">
+          <div className="px-4 py-2 text-sm text-gray-700 space-y-2 border-b">
             <div className="cursor-default">Help & Guides</div>
             <div className="cursor-default">Terms of Use</div>
             <div className="cursor-default">Privacy Policy</div>
