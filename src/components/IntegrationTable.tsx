@@ -3,6 +3,7 @@ import { integrations } from '../data/integrations';
 
 import { faExternalLinkAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import toast from 'react-hot-toast';
 import ActionModal from './ActionModal';
 type Integration = {
   id: number;
@@ -70,6 +71,17 @@ export const IntegrationTable: React.FC = () => {
     setSortAsc(!sortAsc);
   };
 
+  const handleCopyClipboard = (text: string) => {
+    navigator.clipboard.writeText(text);
+    toast.success('Copied to clipboard ✅', {
+      duration: 2000,
+      style: {
+        background: '#333',
+        color: '#fff',
+      },
+    });
+  };
+
   return (
     <div className="p-4">
       <div className="mb-4 w-1/2">
@@ -122,9 +134,16 @@ export const IntegrationTable: React.FC = () => {
                 <td className="p-2">{item.entity_group}</td>
 
                 <td className="p-2">{item.interval}</td>
-                <td className="p-2 text-blue-600 cursor-pointer">{item.connector_url}</td>
+                <td className="p-2 text-cyan-500 cursor-pointer hover:underline">
+                  <button
+                    onClick={() => handleCopyClipboard(item.connector_url)}
+                    className="text-cyan-500 hover:underline"
+                  >
+                    Copy to Clipboard
+                  </button>
+                </td>
 
-                <td className="p-2 text-blue-600 cursor-pointer relative group">
+                <td className="p-2 text-cyan-500 cursor-pointer hover:underline relative group">
                   <span className="underline">View</span>
                   <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
 
@@ -208,54 +227,24 @@ export const IntegrationTable: React.FC = () => {
       </div>
 
       {showDeleteModal && selectedItem && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg shadow-lg p-6 w-[450px] relative">
-            {/* Close Icon (Top Right) */}
-            <button
-              onClick={() => setShowDeleteModal(false)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
-            >
-              ✕
-            </button>
-
-            {/* Icon Above Text, Left-Aligned */}
-            <div>
-              {/* Double Circle Red Icon */}
-              <div className="mb-4">
-                <div className="bg-red-100 rounded-full p-3 inline-flex items-center justify-center">
-                  <div className="bg-red-600 rounded-full w-8 h-8 flex items-center justify-center">
-                    <span className="text-white text-xl">✕</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Text Section */}
-              <h2 className="text-lg font-semibold mb-2">
-                Remove “{selectedItem.name}” Connection?
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Are you sure you want to remove {selectedItem.integration} “{selectedItem.name}”
-                connection?
-              </p>
-
-              {/* Buttons */}
-              <div className="flex justify-center space-x-4">
-                <button
-                  onClick={() => setShowDeleteModal(false)}
-                  className="px-6 py-2 border border-gray-300 rounded hover:bg-gray-100"
-                >
-                  Undo
-                </button>
-                <button
-                  onClick={confirmDelete}
-                  className="px-6 py-2 bg-red-600 text-white rounded hover:bg-red-700"
-                >
-                  Remove
-                </button>
+        <ActionModal
+          icon={
+            <div className="bg-red-100 rounded-full p-3 inline-flex items-center justify-center">
+              <div className="bg-red-600 rounded-full w-8 h-8 flex items-center justify-center">
+                <span className="text-white text-xl">✕</span>
               </div>
             </div>
-          </div>
-        </div>
+          }
+          title={`Remove “${selectedItem.name}” Connection?`}
+          description={`Are you sure you want to remove ${selectedItem.integration} “${selectedItem.name}” connection?`}
+          primaryButtonText="Remove"
+          primaryButtonColor="bg-red-600 hover:bg-red-700"
+          secondaryButtonText="Undo"
+          secondaryButtonColor="border-gray-300 hover:bg-gray-100"
+          onPrimaryAction={confirmDelete}
+          onSecondaryAction={() => setShowDeleteModal(false)}
+          onClose={() => setShowDeleteModal(false)}
+        />
       )}
 
       {showEditModal && selectedItem && (
