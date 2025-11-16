@@ -57,7 +57,7 @@ export default function IntegrationsSettingsPage() {
           />
         ))}
       </div>
-      <h3 className="text-2xl font-semibold text-gray-800 mb-4">TEst table below</h3>
+      <h3 className="text-2xl font-semibold text-gray-800 mb-4">Existing Connections</h3>
 
       <IntegrationTable />
     </div>

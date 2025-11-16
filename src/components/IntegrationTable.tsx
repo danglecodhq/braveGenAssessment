@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { integrations } from '../data/integrations';
 
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 type Integration = {
@@ -66,13 +66,22 @@ export const IntegrationTable: React.FC = () => {
 
   return (
     <div className="p-4">
-      <input
-        type="text"
-        placeholder="Search..."
-        value={search}
-        onChange={e => setSearch(e.target.value)}
-        className="border p-2 mb-4 w-full"
-      />
+      <div className="mb-4 w-1/2">
+        <div className="relative">
+          <FontAwesomeIcon
+            icon={faSearch}
+            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+          />
+          <input
+            type="text"
+            placeholder="Integration or Name"
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            className="border border-gray-300 rounded-lg pl-10 pr-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+      </div>
+
       <table className="min-w-full border border-gray-300">
         <thead>
           <tr className="bg-gray-100">
