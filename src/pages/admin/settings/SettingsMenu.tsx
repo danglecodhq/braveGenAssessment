@@ -24,7 +24,7 @@ export default function SettingsMenu() {
                   key={item.name}
                   to={item.path}
                   className={({ isActive }) =>
-                    `flex items-center px-4 py-2 rounded-md mb-1 transition-colors ${
+                    `flex items-center px-4 py-2 rounded-md mb-1 transition-colors hover:border-green-700 hover:ring-1 ${
                       isActive ? 'bg-green-600 text-white' : 'text-gray-700 hover:bg-gray-100'
                     }`
                   }
