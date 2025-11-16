@@ -16,12 +16,6 @@ type Integration = {
   instructions: string;
 };
 
-// const badgeStyles: Record<string, { bg: string; ring: string }> = {
-//   Carbon: { bg: 'bg-orange-500', ring: 'ring-orange-700' },
-//   Utility: { bg: 'bg-blue-500', ring: 'ring-blue-700' },
-//   Energy: { bg: 'bg-green-500', ring: 'ring-green-700' },
-//   Water: { bg: 'bg-teal-500', ring: 'ring-teal-700' },
-// };
 const badgeStyles: Record<string, { bg: string; text: string; ring: string }> = {
   Carbon: { bg: 'bg-orange-50', text: 'text-orange-600', ring: 'ring-1 ring-orange-400' },
   Utility: { bg: 'bg-teal-50', text: 'text-teal-600', ring: 'ring-1 ring-teal-400' },
@@ -148,7 +142,11 @@ export const IntegrationTable: React.FC = () => {
                   <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
 
                   {/* Tooltip */}
-                  <div className="absolute left-0 top-full mt-1 hidden group-hover:block bg-gray-100 text-black text-sm p-2 rounded w-64 z-10 mx-auto">
+                  <div
+                    className="absolute left-[-120px] top-full mt-1 hidden group-hover:block 
+                    bg-white text-black text-sm p-2 rounded w-64 z-10 mx-auto
+                    border-2 border-gray-400"
+                  >
                     {item.instructions}
                   </div>
                 </td>
