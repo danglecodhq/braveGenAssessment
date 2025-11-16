@@ -3,7 +3,7 @@ import { integrations } from '../data/integrations';
 
 import { faExternalLinkAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import ActionModal from './ActionModal';
 type Integration = {
   id: number;
   integration: string;
@@ -258,28 +258,29 @@ export const IntegrationTable: React.FC = () => {
         </div>
       )}
 
-      {showEditModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-          <div className="bg-white p-4 rounded">
-            <p>Edit {selectedItem?.name}</p>
-            <input
-              type="text"
-              defaultValue={selectedItem?.name}
-              className="border p-2 w-full mt-2"
-            />
-            <div className="mt-4 flex justify-end">
-              <button onClick={() => setShowEditModal(false)} className="mr-2 px-4 py-2 border">
-                Cancel
-              </button>
-              <button
-                onClick={() => setShowEditModal(false)}
-                className="px-4 py-2 bg-blue-600 text-white"
-              >
-                Save
-              </button>
+      {showEditModal && selectedItem && (
+        <ActionModal
+          icon={
+            <div className="bg-yellow-100 rounded-full p-3 inline-flex items-center justify-center">
+              <div className="bg-yellow-500 rounded-full w-8 h-8 flex items-center justify-center">
+                <span className="text-white text-xl">!</span>
+              </div>
             </div>
-          </div>
-        </div>
+          }
+          title="Change to Existing Connection"
+          description={`Changes may disrupt functionality and impact data flow.
+    Are you sure you want to make changes to ${selectedItem.integration} “${selectedItem.name}” connection?`}
+          primaryButtonText="Save Changes"
+          primaryButtonColor="bg-gray-900 hover:bg-gray-800"
+          secondaryButtonText="Undo"
+          secondaryButtonColor="border-gray-300 hover:bg-gray-100"
+          onPrimaryAction={() => {
+            // Save logic
+            setShowEditModal(false);
+          }}
+          onSecondaryAction={() => setShowEditModal(false)}
+          onClose={() => setShowEditModal(false)}
+        />
       )}
     </div>
   );
