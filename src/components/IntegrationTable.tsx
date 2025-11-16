@@ -114,7 +114,7 @@ export const IntegrationTable: React.FC = () => {
                 <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
 
                 {/* Tooltip */}
-                <div className="absolute left-0 top-full mt-1 hidden group-hover:block bg-white text-black text-sm p-2 rounded w-64 z-10 mx-auto">
+                <div className="absolute left-0 top-full mt-1 hidden group-hover:block bg-gray-100 text-black text-sm p-2 rounded w-64 z-10 mx-auto">
                   {item.instructions}
                 </div>
               </td>

@@ -1,7 +1,9 @@
+import { Link, useLocation } from 'react-router-dom';
+import Logo from '../../assets/logos/Logo.png';
 import { useDashboardContext } from '../Provider';
 import css from '../style.module.css';
-import { SidebarHeader } from './SidebarHeader';
-import { SidebarItems } from './SidebarItems';
+
+import { sidebarData } from './sidebarData';
 
 interface SidebarProps {
   mobileOrientation: 'start' | 'end';
@@ -13,13 +15,31 @@ const style = {
     end: 'right-0 lg:left-0',
   },
   container: 'flex flex-col h-full',
-  close: 'duration-700 ease-out hidden transition-all lg:w-24',
-  default: 'bg-slate-900 h-screen overflow-y-auto top-0 lg:absolute lg:block lg:z-40',
-  open: 'absolute duration-500 ease-in transition-all w-8/12 z-40 sm:w-5/12 md:w-64',
+  close: 'duration-700 ease-out hidden transition-all w-12',
+  default: `bg-slate-900 h-screen overflow-y-auto top-0 lg:absolute 
+  lg:block lg:z-40`,
+  open: `absolute duration-500 ease-in transition-all
+   w-8/12 z-40 sm:w-5/12 md:w-32`,
+};
+
+const menuItemstyle = {
+  inactive: 'text-white',
+  active: 'font-medium text-green-700 hover:text-green-400',
+  link: `
+    flex flex-col items-center justify-center w-full
+    hover:text-white p-1 rounded cursor-pointer stroke-[0.75]
+    hover:stroke-neutral-100 stroke-neutral-400 text-neutral-400
+    hover:text-green-700 place-items-center hover:bg-neutral-700/30
+    transition-colors duration-100
+  `,
 };
 
 export function Sidebar(props: SidebarProps) {
   const { sidebarOpen } = useDashboardContext();
+  const { pathname } = useLocation();
+
+  const main = sidebarData.slice(0, -1);
+  const lastMenuItem = sidebarData[sidebarData.length - 1];
   return (
     <aside
       className={`${style.default} 
@@ -27,8 +47,45 @@ export function Sidebar(props: SidebarProps) {
         ${sidebarOpen ? style.open : style.close} ${css.scrollbar}`}
     >
       <div className={style.container}>
-        <SidebarHeader />
-        <SidebarItems />
+        <div className="sticky top-0 z-10 mb-6 flex h-20 items-center justify-center bg-slate-900">
+          <img src={Logo} width={30} height={30} alt="Logo" />
+        </div>
+
+        <div className="flex grow flex-col">
+          {/* Centered main items */}
+          <div className="flex grow flex-col items-center justify-center">
+            {main.map(item => (
+              <div key={item.title} className="w-full">
+                <Link to={item.link}>
+                  <span
+                    className={`${menuItemstyle.link} ${
+                      item.link === pathname ? menuItemstyle.active : menuItemstyle.inactive
+                    }`}
+                  >
+                    <span className="text-xl">{item.icon}</span>
+                    <span className="mt-2 text-center text-xs">{item.title}</span>
+                  </span>
+                </Link>
+              </div>
+            ))}
+          </div>
+
+          {/* Bottom settings item */}
+          {lastMenuItem && (
+            <div className="w-full">
+              <Link to={lastMenuItem.link}>
+                <span
+                  className={`${menuItemstyle.link} ${
+                    lastMenuItem.link === pathname ? menuItemstyle.active : menuItemstyle.inactive
+                  }`}
+                >
+                  <span className="text-xl">{lastMenuItem.icon}</span>
+                  <span className="mt-2 text-center text-xs">{lastMenuItem.title}</span>
+                </span>
+              </Link>
+            </div>
+          )}
+        </div>
       </div>
     </aside>
   );

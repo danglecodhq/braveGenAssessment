@@ -7,7 +7,7 @@ import { ReviewsIcon } from './icons/ReviewsIcon';
 import { SettingIcon } from './icons/SettingIcon';
 import { UtilitiesIcon } from './icons/UtilitiesIcon';
 
-export const data = [
+export const sidebarData = [
   {
     title: 'Insights',
     icon: <InsightIcon />,
