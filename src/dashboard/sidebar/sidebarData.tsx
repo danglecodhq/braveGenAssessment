@@ -46,6 +46,6 @@ export const sidebarData = [
   {
     title: 'Settings',
     icon: <SettingIcon />,
-    link: '/admin/Settings',
+    link: '/admin/settings',
   },
 ];

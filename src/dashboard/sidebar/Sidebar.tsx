@@ -78,7 +78,9 @@ export function Sidebar(props: SidebarProps) {
               <Link to={lastMenuItem.link}>
                 <span
                   className={`${menuItemstyle.link} ${
-                    lastMenuItem.link === pathname ? menuItemstyle.active : menuItemstyle.inactive
+                    pathname.includes(lastMenuItem.link)
+                      ? menuItemstyle.active
+                      : menuItemstyle.inactive
                   }`}
                 >
                   <span className="text-xl">{lastMenuItem.icon}</span>
