@@ -23,13 +23,15 @@ const style = {
 };
 
 const menuItemstyle = {
-  inactive: 'text-white',
-  active: 'font-medium text-green-700 hover:text-green-400',
+  inactive: 'text-neutral-400',
+  active: `
+    font-bold  text-green-700 bg-neutral-700/30
+  `,
   link: `
     flex flex-col items-center justify-center w-full
-    hover:text-white p-1 rounded cursor-pointer stroke-[0.75]
-    hover:stroke-neutral-100 stroke-neutral-400 text-neutral-400
-    hover:text-green-700 place-items-center hover:bg-neutral-700/30
+    p-1 rounded cursor-pointer stroke-[0.75]
+    stroke-neutral-400 
+    hover:text-green-700 hover:bg-neutral-700/30
     transition-colors duration-100
   `,
 };
@@ -53,14 +55,14 @@ export function Sidebar(props: SidebarProps) {
 
         <div className="flex grow flex-col">
           {/* Centered main items */}
-          <div className="flex grow flex-col items-center justify-center">
+          <div className=" flex grow flex-col items-center justify-center">
             {main.map(item => (
               <div key={item.title} className="w-full">
                 <Link to={item.link}>
                   <span
-                    className={`${menuItemstyle.link} ${
+                    className={` ${
                       item.link === pathname ? menuItemstyle.active : menuItemstyle.inactive
-                    }`}
+                    } ${menuItemstyle.link}`}
                   >
                     <span className="text-xl">{item.icon}</span>
                     <span className="mt-2 text-center text-xs">{item.title}</span>
