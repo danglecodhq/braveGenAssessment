@@ -25,13 +25,13 @@ const style = {
 const menuItemstyle = {
   inactive: 'text-neutral-400',
   active: `
-    font-bold  text-green-700 bg-neutral-700/30
+    font-bold  text-lime-600 bg-neutral-700/30
   `,
   link: `
     flex flex-col items-center justify-center w-full
     p-1 rounded cursor-pointer stroke-[0.75]
     stroke-neutral-400 
-    hover:text-green-700 hover:bg-neutral-700/30
+    hover:text-lime-600 hover:bg-neutral-700/30
     transition-colors duration-100
   `,
 };

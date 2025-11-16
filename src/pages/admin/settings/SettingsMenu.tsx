@@ -24,12 +24,12 @@ export default function SettingsMenu() {
                   key={item.name}
                   to={item.path}
                   className={({ isActive }) =>
-                    `flex items-center px-4 py-2 rounded-md mb-1 transition-colors hover:border-green-700 hover:ring-1 ${
-                      isActive ? 'bg-green-600 text-white' : 'text-gray-700 hover:bg-gray-100'
+                    `flex items-center px-4 py-2 rounded-md mb-1 transition-colors hover:border-lime-600 hover:ring-1 ${
+                      isActive ? 'bg-lime-600 text-white' : 'text-gray-700 hover:bg-gray-100'
                     }`
                   }
                 >
-                  <item.icon className="w-5 h-5 mr-3 text-green-700" />
+                  <item.icon className="w-5 h-5 mr-3 text-lime-600" />
                   <span className="text-sm font-medium">{item.name}</span>
                 </NavLink>
               )
