@@ -15,11 +15,17 @@ type Integration = {
   instructions: string;
 };
 
-const badgeColors: Record<string, string> = {
-  Carbon: 'bg-orange-500',
-  Utility: 'bg-blue-500',
-  Energy: 'bg-green-500',
-  Water: 'bg-teal-500',
+// const badgeStyles: Record<string, { bg: string; ring: string }> = {
+//   Carbon: { bg: 'bg-orange-500', ring: 'ring-orange-700' },
+//   Utility: { bg: 'bg-blue-500', ring: 'ring-blue-700' },
+//   Energy: { bg: 'bg-green-500', ring: 'ring-green-700' },
+//   Water: { bg: 'bg-teal-500', ring: 'ring-teal-700' },
+// };
+const badgeStyles: Record<string, { bg: string; text: string; ring: string }> = {
+  Carbon: { bg: 'bg-orange-50', text: 'text-orange-600', ring: 'ring-1 ring-orange-400' },
+  Utility: { bg: 'bg-teal-50', text: 'text-teal-600', ring: 'ring-1 ring-teal-400' },
+  Energy: { bg: 'bg-green-50', text: 'text-green-600', ring: 'ring-1 ring-green-400' },
+  Water: { bg: 'bg-cyan-50', text: 'text-cyan-600', ring: 'ring-1 ring-cyan-400' },
 };
 
 export const IntegrationTable: React.FC = () => {
@@ -106,9 +112,9 @@ export const IntegrationTable: React.FC = () => {
                 <td className="p-2">{item.name}</td>
                 <td className="p-2">
                   <span
-                    className={`text-white px-2 py-1 rounded ${
-                      badgeColors[item.source] || 'bg-gray-500'
-                    }`}
+                    className={`px-3 py-1 rounded ${badgeStyles[item.source]?.bg || 'bg-gray-50'} ${
+                      badgeStyles[item.source]?.text || 'text-gray-600'
+                    } ${badgeStyles[item.source]?.ring || 'ring-1 ring-gray-400'}`}
                   >
                     {item.source}
                   </span>
