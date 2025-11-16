@@ -1,9 +1,23 @@
 import { useLocation } from 'react-router-dom';
 import { settingsMenu } from '../pages/admin/settings/settingsMenuData';
 import { useDashboardContext } from './Provider';
+import TenantDropdown from './TenantDropdown';
+const tenants = [
+  { id: 1, name: 'Adhesif Labels Ltd', initials: 'AL' },
+  { id: 2, name: 'AIA Services New Zealand Ltd', initials: 'AS' },
+  { id: 3, name: 'Air New Zealand Ltd', initials: 'AN' },
+  { id: 4, name: 'All Blacks Organization', initials: 'AB' },
+  { id: 5, name: 'All Hands Demo Limited', initials: 'AH' },
+];
+
 export function TopBar() {
   const { openSidebar } = useDashboardContext();
   const location = useLocation();
+
+  const handleTenantChange = (tenantName: string) => {
+    console.log('Selected Tenant:', tenantName);
+    // You can add logic here to update global state or API calls
+  };
 
   const activeItem = settingsMenu.flatMap(s => s.items).find(i => i.path === location.pathname);
 
@@ -18,12 +32,17 @@ export function TopBar() {
                 aria-expanded="false"
                 aria-label="Toggle sidenav"
                 onClick={openSidebar}
-                className="text-4xl text-black focus:outline-none"
+                className="text-4xl text-black focus:outline-none hidden"
               >
                 &#8801;
               </button>
 
-              <span className="text-gray-700 font-semibold">ABC Group Ltd</span>
+              <TenantDropdown
+                tenants={tenants}
+                defaultTenant="ABC Group Ltd"
+                onTenantChange={handleTenantChange}
+              />
+
               {activeItem && (
                 <div className="flex items-center space-x-2">
                   <activeItem.icon className="w-5 h-5 text-gray-700" />
