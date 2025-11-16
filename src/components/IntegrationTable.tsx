@@ -207,16 +207,48 @@ export const IntegrationTable: React.FC = () => {
         </div>
       </div>
 
-      {showDeleteModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-          <div className="bg-white p-4 rounded">
-            <p>Are you sure you want to delete {selectedItem?.name}?</p>
-            <div className="mt-4 flex justify-end">
-              <button onClick={() => setShowDeleteModal(false)} className="mr-2 px-4 py-2 border">
-                Cancel
+      {showDeleteModal && selectedItem && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg shadow-lg p-6 w-[400px] relative">
+            {/* Close Icon */}
+            <button
+              onClick={() => setShowDeleteModal(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
+            >
+              ✕
+            </button>
+
+            {/* Red Circle Icon */}
+            <div className="flex justify-center mb-4">
+              <div className="bg-red-100 rounded-full p-4">
+                <span className="text-red-600 text-2xl">✕</span>
+              </div>
+            </div>
+
+            {/* Title */}
+            <h2 className="text-lg font-semibold text-center mb-2">
+              Remove “{selectedItem.name}” Connection?
+            </h2>
+
+            {/* Description */}
+            <p className="text-gray-600 text-center mb-6">
+              Are you sure you want to remove {selectedItem.integration} “{selectedItem.name}”
+              connection?
+            </p>
+
+            {/* Buttons */}
+            <div className="flex justify-center space-x-4">
+              <button
+                onClick={() => setShowDeleteModal(false)}
+                className="px-6 py-2 border border-gray-300 rounded hover:bg-gray-100"
+              >
+                Undo
               </button>
-              <button onClick={confirmDelete} className="px-4 py-2 bg-red-600 text-white">
-                Delete
+              <button
+                onClick={confirmDelete}
+                className="px-6 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+              >
+                Remove
               </button>
             </div>
           </div>
