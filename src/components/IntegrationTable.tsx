@@ -152,23 +152,57 @@ export const IntegrationTable: React.FC = () => {
             ))}
           </tbody>
         </table>
-        <div className="flex justify-between mt-4 text-sm p-4">
+        <div className="flex items-center justify-center space-x-2 my-4">
+          {/* Previous Button */}
           <button
             disabled={currentPage === 1}
-            onClick={() => setCurrentPage(p => p - 1)}
-            className="px-4 py-2 border"
+            onClick={() => setCurrentPage(currentPage - 1)}
+            className="border rounded px-4 py-2 text-gray-600 hover:bg-gray-100 disabled:opacity-50 flex items-center"
           >
-            Previous
+            ← Previous
           </button>
-          <span>
-            Page {currentPage} of {totalPages}
-          </span>
+
+          {/* Page Numbers */}
+          {(() => {
+            const pages: (number | string)[] = [];
+            pages.push(1);
+            if (currentPage > 3) pages.push('...');
+            for (
+              let i = Math.max(2, currentPage - 1);
+              i <= Math.min(totalPages - 1, currentPage + 1);
+              i++
+            ) {
+              pages.push(i);
+            }
+            if (currentPage < totalPages - 2) pages.push('...');
+            if (totalPages > 1) pages.push(totalPages);
+
+            return pages.map((p, idx) =>
+              typeof p === 'number' ? (
+                <button
+                  key={idx}
+                  onClick={() => setCurrentPage(p)}
+                  className={`px-3 py-2 rounded ${
+                    p === currentPage ? 'bg-gray-200 font-semibold' : 'hover:bg-gray-100'
+                  }`}
+                >
+                  {p}
+                </button>
+              ) : (
+                <span key={idx} className="px-2 text-gray-500">
+                  {p}
+                </span>
+              )
+            );
+          })()}
+
+          {/* Next Button */}
           <button
             disabled={currentPage === totalPages}
-            onClick={() => setCurrentPage(p => p + 1)}
-            className="px-4 py-2 border"
+            onClick={() => setCurrentPage(currentPage + 1)}
+            className="border rounded px-4 py-2 text-gray-600 hover:bg-gray-100 disabled:opacity-50 flex items-center"
           >
-            Next
+            Next →
           </button>
         </div>
       </div>
