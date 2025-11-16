@@ -5,7 +5,7 @@ import Pages from 'vite-plugin-pages';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), Pages()],
+  plugins: [react(), Pages({ routeBlockers: [] })],
   resolve: {
     alias: {
       '@assets': path.resolve(__dirname, './src/assets'),

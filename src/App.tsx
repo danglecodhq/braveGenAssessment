@@ -1,11 +1,20 @@
 import { Suspense } from 'react';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import routes from '~react-pages';
 import { useRoutes } from 'react-router-dom';
+import routes from '~react-pages';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
-  return <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>;
+  const allRoutes = [
+    ...routes,
+    {
+      path: '*',
+      element: <PageNotFound />,
+    },
+  ];
+
+  return <Suspense fallback={<p>Loading...</p>}>{useRoutes(allRoutes)}</Suspense>;
 }
 
 export default App;
