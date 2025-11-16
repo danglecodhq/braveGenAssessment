@@ -57,7 +57,7 @@ export function Sidebar(props: SidebarProps) {
           {/* Centered main items */}
           <div className=" flex grow flex-col items-center justify-center">
             {main.map(item => (
-              <div key={item.title} className="w-full">
+              <div key={item.title} className="w-full px-3">
                 <Link to={item.link}>
                   <span
                     className={` ${

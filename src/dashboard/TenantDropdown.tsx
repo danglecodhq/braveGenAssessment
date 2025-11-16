@@ -49,7 +49,7 @@ const TenantDropdown: React.FC<TenantDropdownProps> = ({
       {isTenantDropdownOpen && (
         <div className="absolute mt-2 w-80  bg-white border rounded-md shadow-lg z-50">
           {/* Header */}
-          <div className="bg-green-600 text-white px-4 py-2 font-semibold flex justify-between items-center">
+          <div className="bg-green-600 text-white px-4 py-2 font-semibold flex justify-between items-center rounded-t-md">
             <span>{selectedTenant}</span>
             <FontAwesomeIcon icon={faCircleArrowUp} />
           </div>
