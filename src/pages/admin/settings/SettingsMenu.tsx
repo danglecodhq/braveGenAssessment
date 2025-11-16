@@ -29,7 +29,7 @@ export default function SettingsMenu() {
                     }`
                   }
                 >
-                  <item.icon className="w-5 h-5 mr-3" />
+                  <item.icon className="w-5 h-5 mr-3 text-green-700" />
                   <span className="text-sm font-medium">{item.name}</span>
                 </NavLink>
               )
