@@ -6,7 +6,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Page Ltd - Gun',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -17,7 +17,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Bartlett and Sons - Trouble',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -28,7 +28,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Ray, Sweeney and Moore - This',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -39,7 +39,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Spears, Baker and Krause - Collection',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -50,7 +50,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Bailey, Yates and Buchanan - Bank',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -61,7 +61,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Lewis LLC - Never',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -72,7 +72,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Cole-Hall - Nice',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -83,7 +83,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hall, Smith and Garcia - Attorney',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -94,7 +94,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Carey-Vincent - Clearly',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -105,7 +105,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Olson, Dalton and Thomas - Until',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -116,7 +116,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Daniel-Green - Bad',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -127,7 +127,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hamilton, Herrera and Stuart - Be',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -138,7 +138,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Flores-Jones - Too',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -149,7 +149,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Gibbs, Lindsey and Carlson - Family',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -160,7 +160,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Christian-Mcbride - Daughter',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -171,7 +171,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Sims Ltd - Bank',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -182,7 +182,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Skinner PLC - Hotel',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -193,7 +193,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Mccoy, Roberts and Burton - For',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -204,7 +204,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Graham, Clay and Gilbert - Much',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -215,7 +215,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Rodriguez and Sons - Open',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -226,7 +226,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Molina Group - Woman',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -237,7 +237,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Rodriguez-Barron - Main',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -248,7 +248,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Ruiz, Thomas and Lester - And',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -259,7 +259,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Lee and Sons - Poor',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -270,7 +270,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Kelley-Copeland - Build',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -281,7 +281,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Patton, Stevens and Zimmerman - Contain',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -292,7 +292,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Reid Inc - Claim',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -303,7 +303,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Alvarez, Gonzales and Jones - Much',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -314,7 +314,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Berry-Gutierrez - Miss',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -325,7 +325,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Miller-Sullivan - Record',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -336,7 +336,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Banks-Davis - When',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -347,7 +347,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Smith PLC - Seat',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -358,7 +358,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Li LLC - Class',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -369,7 +369,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Walker Ltd - Receive',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -380,7 +380,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Howell, Morris and Villanueva - Professional',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -391,7 +391,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Stewart-Mcgee - Green',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -402,7 +402,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Parks, Harvey and Castro - Book',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -413,7 +413,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Torres, King and Carey - About',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -424,7 +424,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Vargas-Mcintosh - Nation',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -435,7 +435,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Green, Lee and Sutton - Campaign',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -446,7 +446,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Parker Ltd - Learn',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -457,7 +457,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Rodriguez, Schneider and Robbins - When',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -468,7 +468,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Williams Ltd - Edge',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -479,7 +479,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'King LLC - Resource',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -490,7 +490,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Wade and Sons - Cultural',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -501,7 +501,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Sanford Ltd - Instead',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -512,7 +512,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Cox-Serrano - Anything',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -523,7 +523,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Newman, Moran and Fuller - Trade',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -534,7 +534,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Parsons, Aguilar and Rodriguez - Say',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -545,7 +545,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hill, Sanchez and Sanchez - Expect',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -556,7 +556,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Davis, Nunez and Weaver - Scientist',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -567,7 +567,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Edwards, Martinez and Hall - Friend',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -578,7 +578,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Young-Weaver - Second',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -589,7 +589,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Edwards, Ellis and Barnes - Strategy',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -600,7 +600,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Robinson-Graves - Easy',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -611,7 +611,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Dyer-Munoz - Tv',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -622,7 +622,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Lawrence LLC - Know',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -633,7 +633,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Lara, Ingram and Walker - Condition',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -644,7 +644,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Jordan-Payne - Take',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -655,7 +655,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'West-Hall - Book',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -666,7 +666,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Greer, Hardin and Johnson - Police',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -677,7 +677,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'James-Vaughn - Indicate',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -688,7 +688,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Peterson LLC - Leader',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -699,7 +699,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Hudson-Conway - Result',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -710,7 +710,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Blanchard LLC - People',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -721,7 +721,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Sloan and Sons - Firm',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -732,7 +732,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Roberson Inc - Defense',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -743,7 +743,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Richard, King and Lee - Wrong',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -754,7 +754,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Taylor-Mendoza - Service',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -765,7 +765,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Rodriguez, Booth and Garcia - Way',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -776,7 +776,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Johnson-Jones - Close',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -787,7 +787,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Giles, Mason and Johnson - Effect',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -798,7 +798,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Cunningham-Clay - Congress',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -809,7 +809,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Hubbard, Bailey and Miller - Continue',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -820,7 +820,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Taylor, Gray and Watkins - Thought',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -831,7 +831,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Byrd-Chan - Area',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -842,7 +842,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Hamilton, Rogers and Manning - Character',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -853,7 +853,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Becker PLC - Point',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -864,7 +864,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Todd, Parrish and Nelson - White',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -875,7 +875,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Wang, Roberts and Pierce - Movement',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -886,7 +886,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Burton Group - Statement',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -897,7 +897,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Ruiz-Berry - Perhaps',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -908,7 +908,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Higgins, Dunn and Banks - Either',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -919,7 +919,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Sims PLC - Data',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -930,7 +930,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Martinez-Bell - Real',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -941,7 +941,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Carter, Ross and Beasley - Threat',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -952,7 +952,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Carter-Marshall - Indicate',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -963,7 +963,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Martin, Sanchez and Porter - Here',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -974,7 +974,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Anderson, Allen and Lambert - Explain',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -985,7 +985,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Morris, Mcmahon and Perry - Industry',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -996,7 +996,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Miller Ltd - Reality',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1007,7 +1007,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Kim-Jones - Building',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1018,7 +1018,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Jones LLC - Factor',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1029,7 +1029,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Brooks, Payne and Cohen - Its',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1040,7 +1040,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Rodriguez-Cooper - Body',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1051,7 +1051,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Russell Group - Be',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1062,7 +1062,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Adams-Dixon - Indeed',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1073,7 +1073,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Rodriguez Inc - Important',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1084,7 +1084,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Ewing, Brooks and Medina - Create',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1095,7 +1095,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Cohen-Sandoval - His',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1106,7 +1106,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Jackson and Sons - Research',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1117,7 +1117,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Bailey-Roberts - Thing',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1128,7 +1128,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Powell, Nielsen and Horton - Same',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1139,7 +1139,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Dixon-Moore - Stock',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1150,7 +1150,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Robles, Williams and Gill - Side',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1161,7 +1161,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Lane-Miller - Alone',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1172,7 +1172,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Moore-Holden - See',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1183,7 +1183,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Peterson-Mcclain - North',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1194,7 +1194,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Acevedo-Mcdowell - Identify',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1205,7 +1205,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Krueger-Phillips - Week',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1216,7 +1216,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Allen, Douglas and Brooks - Push',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1227,7 +1227,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Glass, Nelson and Silva - Affect',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1238,7 +1238,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Obrien-Morris - Government',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1249,7 +1249,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Gamble Group - May',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1260,7 +1260,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Sanchez-James - Body',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1271,7 +1271,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Wilson, Richards and Phillips - Leave',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1282,7 +1282,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Carter LLC - Event',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1293,7 +1293,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Allen, Ross and Edwards - Send',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1304,7 +1304,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Reynolds, Martinez and Diaz - Green',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1315,7 +1315,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Williams-Mason - North',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1326,7 +1326,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Hoffman, Fisher and Diaz - Set',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1337,7 +1337,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Parker-Carter - Morning',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1348,7 +1348,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Nguyen, Garcia and Rivera - Teach',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1359,7 +1359,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Shaw, Carrillo and Pearson - Series',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1370,7 +1370,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Sweeney-Cordova - Final',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1381,7 +1381,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Mendoza Ltd - Agree',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1392,7 +1392,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Bowman, Robinson and Wolfe - Trip',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1403,7 +1403,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Roberts-Avila - From',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1414,7 +1414,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Woods-Simon - Role',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1425,7 +1425,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Jones PLC - How',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1436,7 +1436,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Duran, Simpson and Little - Say',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1447,7 +1447,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Archer, Miller and Nolan - Space',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1458,7 +1458,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Prince, Ware and Bell - Cold',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1469,7 +1469,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Kennedy, Stewart and Nelson - Concern',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1480,7 +1480,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Trujillo, Osborn and Montes - Unit',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1491,7 +1491,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Barnes, Dean and Anthony - Peace',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1502,7 +1502,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Oconnor-Davis - Citizen',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1513,7 +1513,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Juarez-Morris - Else',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1524,7 +1524,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Greene, Patton and Hopkins - Bed',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1535,7 +1535,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Martinez-Ramirez - Executive',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1546,7 +1546,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Moore-Watson - Fish',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1557,7 +1557,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Payne, Weber and Hamilton - Word',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1568,7 +1568,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Mason Group - Both',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1579,7 +1579,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Schaefer Ltd - Carry',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1590,7 +1590,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Blankenship, Henderson and Murphy - Energy',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1601,7 +1601,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Johnson LLC - Production',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1612,7 +1612,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Hernandez Ltd - Say',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1623,7 +1623,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hart, Williams and Marquez - Gas',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1634,7 +1634,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Ellison-Dixon - Office',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1645,7 +1645,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Berger-Howard - Style',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1656,7 +1656,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Reynolds and Sons - Maybe',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1667,7 +1667,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Ferguson-Moon - Writer',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1678,7 +1678,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hill-Walker - Growth',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1689,7 +1689,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Henderson PLC - Address',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1700,7 +1700,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Anderson LLC - Into',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1711,7 +1711,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Nelson LLC - Popular',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1722,7 +1722,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Fletcher-Summers - Crime',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1733,7 +1733,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Ellison-Wu - Well',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1744,7 +1744,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Morrison, Collins and Rios - Simple',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1755,7 +1755,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Thomas Ltd - Rise',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1766,7 +1766,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Smith Group - Concern',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1777,7 +1777,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Stephenson Group - Value',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1788,7 +1788,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Johnson-Barnes - Black',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1799,7 +1799,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Jennings, Gray and Williams - Common',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1810,7 +1810,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Smith LLC - Control',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1821,7 +1821,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Lynn-Christensen - Fear',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1832,7 +1832,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Elliott-Miles - Top',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1843,7 +1843,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Solomon PLC - Against',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1854,7 +1854,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Spencer PLC - Laugh',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1865,7 +1865,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Sherman LLC - System',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1876,7 +1876,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Howard-Johnson - Energy',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1887,7 +1887,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Morales, Curtis and Lopez - Here',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1898,7 +1898,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Osborne-Clark - Range',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1909,7 +1909,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Chavez and Sons - Others',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1920,7 +1920,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Mcfarland Ltd - Piece',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1931,7 +1931,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Cameron Group - Half',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1942,7 +1942,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'White, Moore and Stuart - Similar',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1953,7 +1953,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Walker, Murphy and Molina - Help',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1964,7 +1964,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Taylor Group - Nearly',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1975,7 +1975,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Tucker Ltd - Concern',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1986,7 +1986,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Rodriguez PLC - Guess',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -1997,7 +1997,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Johnson, Merritt and Gardner - Far',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2008,7 +2008,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Evans, Mcdowell and Pierce - General',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2019,7 +2019,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Smith-Kramer - Toward',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2030,7 +2030,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Walker, Lawson and Lee - Week',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2041,7 +2041,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Tran Ltd - Check',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2052,7 +2052,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Brooks PLC - Attack',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2063,7 +2063,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Morrison-Alexander - Develop',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2074,7 +2074,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Hendrix Inc - Heart',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2085,7 +2085,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Walker, Hill and Johnson - System',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2096,7 +2096,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Lewis LLC - Present',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2107,7 +2107,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Horn-Livingston - Reveal',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2118,7 +2118,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Johnson-Woods - Born',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2129,7 +2129,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Hill-Parker - Such',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2140,7 +2140,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Mccullough-Cox - Include',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2151,7 +2151,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Johnston-Mccoy - Resource',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2162,7 +2162,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Acosta, Maldonado and Hughes - Which',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2173,7 +2173,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Santos Group - Total',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2184,7 +2184,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Hawkins-Miller - Hotel',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2195,7 +2195,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Humphrey-Moran - Power',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2206,7 +2206,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Wood-Archer - Eye',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2217,7 +2217,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Rangel, Scott and Shepard - Help',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2228,7 +2228,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Henry Inc - Spend',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2239,7 +2239,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Hamilton-Payne - Gun',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2250,7 +2250,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Anderson-Luna - Large',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2261,7 +2261,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Khan, Obrien and Cox - Very',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2272,7 +2272,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Kim Group - Let',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2283,7 +2283,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Rodriguez, Burke and Levine - Voice',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2294,7 +2294,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Martinez, Shelton and Faulkner - Sometimes',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2305,7 +2305,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Reid-Farley - Agreement',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2316,7 +2316,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Garcia, Harding and Tucker - Audience',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2327,7 +2327,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Butler-Armstrong - History',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2338,7 +2338,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Williams Group - Trouble',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2349,7 +2349,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Cabrera, Griffith and Cook - Care',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2360,7 +2360,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Stevenson, Daniel and Pacheco - Buy',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2371,7 +2371,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Estes and Sons - Continue',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2382,7 +2382,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Alexander and Sons - Home',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2393,7 +2393,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Sanders and Sons - Free',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2404,7 +2404,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Smith Group - Show',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2415,7 +2415,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Bell Group - Former',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2426,7 +2426,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Alvarez, Hardy and Alexander - Carry',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2437,7 +2437,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Todd PLC - Should',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2448,7 +2448,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Howard-Reynolds - Town',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2459,7 +2459,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Jones and Sons - Hope',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2470,7 +2470,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Cook-Thomas - Himself',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2481,7 +2481,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Smith, Davis and Stone - Four',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2492,7 +2492,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Boone, Miller and Clark - Focus',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2503,7 +2503,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Garcia Group - Detail',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2514,7 +2514,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Smith, Murphy and Harris - Hour',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2525,7 +2525,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Delacruz-Ramos - Table',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2536,7 +2536,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hunt-Simmons - Street',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2547,7 +2547,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Evans, Wilson and Smith - Receive',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2558,7 +2558,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Green-Campbell - Approach',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2569,7 +2569,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Turner LLC - Too',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2580,7 +2580,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hernandez-Wright - Point',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2591,7 +2591,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Mejia Inc - Benefit',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2602,7 +2602,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Santos and Sons - Both',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2613,7 +2613,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Cooper, Peterson and Moore - Information',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2624,7 +2624,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Matthews, Nielsen and Gonzalez - Pick',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2635,7 +2635,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Perez Ltd - Single',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2646,7 +2646,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Cross, Hammond and Anderson - Look',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2657,7 +2657,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Tucker-Ayers - Itself',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2668,7 +2668,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Lopez Group - Wife',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2679,7 +2679,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Juarez, Farmer and Johnson - Design',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2690,7 +2690,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Taylor, Werner and Carter - Hit',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2701,7 +2701,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Stephens-Carroll - Anyone',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2712,7 +2712,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Lee, Dudley and Morales - Alone',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2723,7 +2723,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Jackson, Martin and Moore - Unit',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2734,7 +2734,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Boone, Johnson and Wood - Present',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2745,7 +2745,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Norton, Drake and Summers - Poor',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2756,7 +2756,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Avila, Fritz and Daniel - Identify',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2767,7 +2767,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Smith Group - Type',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2778,7 +2778,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Gonzalez and Sons - Fast',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2789,7 +2789,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Miller, Rhodes and Little - Computer',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2800,7 +2800,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Murphy LLC - Relate',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2811,7 +2811,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Pugh-Long - Rate',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2822,7 +2822,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Roberts and Sons - Law',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2833,7 +2833,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Stevenson, Wilson and Pena - Simply',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2844,7 +2844,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Casey, Myers and Buchanan - From',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2855,7 +2855,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Thompson Group - Value',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2866,7 +2866,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Sanchez PLC - Weight',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2877,7 +2877,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Williams-Carrillo - High',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2888,7 +2888,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Clark, Hall and Hill - Style',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2899,7 +2899,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Todd Group - Know',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2910,7 +2910,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Shaffer-Stephens - Seem',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2921,7 +2921,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Carter, Williams and Scott - Across',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2932,7 +2932,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Pierce, Green and Reeves - Follow',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2943,7 +2943,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Blackburn, Hopkins and Jacobs - Idea',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2954,7 +2954,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'French-Gutierrez - See',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2965,7 +2965,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Wilkinson, Elliott and Hanson - During',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2976,7 +2976,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Bailey-Robinson - Whose',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2987,7 +2987,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Gomez, Avila and Dalton - That',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -2998,7 +2998,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Green Ltd - Where',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3009,7 +3009,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Burns-Jacobs - Life',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3020,7 +3020,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Smith-Turner - Structure',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3031,7 +3031,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Williams, Flowers and Rogers - Music',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3042,7 +3042,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Castro Inc - Ready',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3053,7 +3053,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Yang LLC - After',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3064,7 +3064,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Lopez, Lewis and Brown - Second',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3075,7 +3075,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Curtis-Patel - Meeting',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3086,7 +3086,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Li-Warner - Member',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3097,7 +3097,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Brown and Sons - Street',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3108,7 +3108,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Richmond and Sons - Water',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3119,7 +3119,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Brown-Moore - Society',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3130,7 +3130,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Bowman-Mathis - Husband',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3141,7 +3141,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Jackson Inc - Short',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3152,7 +3152,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Cox, Ramirez and Hodges - Officer',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3163,7 +3163,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Gonzalez-Travis - Technology',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3174,7 +3174,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Peterson, Miles and Flynn - Other',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3185,7 +3185,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Garcia, Martin and Gordon - Town',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3196,7 +3196,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Burns and Sons - Not',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3207,7 +3207,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Barnes-Ward - Matter',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3218,7 +3218,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Taylor Ltd - Everything',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3229,7 +3229,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Sosa, Zimmerman and Gonzalez - System',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3240,7 +3240,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Baker, Cox and Romero - Across',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3251,7 +3251,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Hayes, Delgado and Salinas - Hour',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3262,7 +3262,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Nichols and Sons - Amount',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3273,7 +3273,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Dunlap-Smith - Change',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3284,7 +3284,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'West-Sullivan - Western',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3295,7 +3295,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Sutton Group - Time',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3306,7 +3306,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Parker, Kaiser and Romero - Ask',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3317,7 +3317,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Brown, Barker and Williams - Inside',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3328,7 +3328,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Dawson, Guerrero and Daniels - Skin',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3339,7 +3339,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Rodriguez Group - Should',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3350,7 +3350,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Fernandez PLC - Building',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3361,7 +3361,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Green Group - Rather',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3372,7 +3372,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Montoya PLC - Term',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3383,7 +3383,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Reeves and Sons - Against',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3394,7 +3394,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Sanders Ltd - Price',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3405,7 +3405,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Thomas-Johnston - Nearly',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3416,7 +3416,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Fischer-Singh - Friend',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3427,7 +3427,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Jones, Turner and Robbins - Lot',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3438,7 +3438,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Johnson Inc - Read',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3449,7 +3449,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Thompson LLC - Require',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3460,7 +3460,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Daniel-Sweeney - To',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3471,7 +3471,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Love Ltd - Foreign',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3482,7 +3482,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Graham, Brown and Best - Civil',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3493,7 +3493,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Pittman-Hunter - Themselves',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3504,7 +3504,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Anderson LLC - Close',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3515,7 +3515,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Rogers-Barnett - Out',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3526,7 +3526,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Brown, Ruiz and Maxwell - Get',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3537,7 +3537,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Taylor PLC - Appear',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3548,7 +3548,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Larsen and Sons - Subject',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3559,7 +3559,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Norris, Mcknight and Friedman - Return',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3570,7 +3570,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Gray Inc - Responsibility',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3581,7 +3581,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Castillo-Ross - Source',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3592,7 +3592,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Jacobs LLC - Food',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3603,7 +3603,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Baldwin-Johnson - Ask',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3614,7 +3614,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Mcdonald-Ellis - Six',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3625,7 +3625,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Bird-Johnson - Century',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3636,7 +3636,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Wilson-Richard - Ball',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3647,7 +3647,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Adams-Flynn - Wall',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3658,7 +3658,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Kirby Group - Receive',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3669,7 +3669,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Kemp Ltd - Increase',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3680,7 +3680,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Evans, Gonzalez and Gill - Partner',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3691,7 +3691,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Brown PLC - Area',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3702,7 +3702,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Knight, Bailey and Maxwell - Total',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3713,7 +3713,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Griffin-Bailey - Southern',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3724,7 +3724,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Kent LLC - Which',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3735,7 +3735,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Irwin Group - Little',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3746,7 +3746,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Burke, Smith and Jordan - Business',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3757,7 +3757,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Larson-Montgomery - Population',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3768,7 +3768,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Gillespie, Silva and White - Card',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3779,7 +3779,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Eaton, Sullivan and Burns - Fact',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3790,7 +3790,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Brown, Mooney and Schwartz - Man',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3801,7 +3801,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Lawrence, Lawrence and King - Though',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3812,7 +3812,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Duran-Ortiz - Understand',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3823,7 +3823,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Gilmore, Pennington and Hernandez - Huge',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3834,7 +3834,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Taylor-Hull - Quite',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3845,7 +3845,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Ball LLC - Yeah',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3856,7 +3856,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Yates, Owen and Matthews - Improve',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3867,7 +3867,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Gordon, Hale and Alvarez - Happen',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3878,7 +3878,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Ramirez PLC - Woman',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3889,7 +3889,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Taylor-Nichols - Recently',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3900,7 +3900,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Rodriguez and Sons - Cover',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3911,7 +3911,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Elliott, Smith and Johnson - Magazine',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3922,7 +3922,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Gibson PLC - Analysis',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3933,7 +3933,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Hunt Inc - Sport',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3944,7 +3944,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Smith, Thompson and Combs - Daughter',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3955,7 +3955,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Day Ltd - Write',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3966,7 +3966,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Gonzalez Ltd - Mission',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3977,7 +3977,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Ellis, Dyer and Foley - Cut',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3988,7 +3988,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Scott-Hughes - Third',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -3999,7 +3999,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Padilla-Alvarez - Represent',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4010,7 +4010,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Harris-Higgins - Head',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4021,7 +4021,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Campbell, Anderson and Orozco - Series',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4032,7 +4032,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Macdonald, Campbell and Ramos - Size',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4043,7 +4043,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Meza-Schwartz - Also',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4054,7 +4054,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Mitchell Ltd - Old',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4065,7 +4065,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Price-Aguirre - Nearly',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4076,7 +4076,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Rangel LLC - Occur',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4087,7 +4087,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Brown PLC - Such',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4098,7 +4098,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Dillon-Morgan - Factor',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4109,7 +4109,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Leblanc-Jones - Break',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4120,7 +4120,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Robinson-Williams - Office',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4131,7 +4131,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Barton-Peters - Simply',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4142,7 +4142,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hudson-Jones - So',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4153,7 +4153,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Moore, Santos and Perkins - Like',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4164,7 +4164,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Fleming and Sons - Seven',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4175,7 +4175,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Larson-Wilson - Lose',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4186,7 +4186,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Thompson Group - History',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4197,7 +4197,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Russell-Alexander - Hotel',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4208,7 +4208,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Doyle Group - Spring',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4219,7 +4219,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Flores PLC - Partner',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4230,7 +4230,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Sutton, Ross and Shepard - Reason',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4241,7 +4241,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Smith-Moore - Record',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4252,7 +4252,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Mccullough-Martin - Man',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4263,7 +4263,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Ramirez LLC - Listen',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4274,7 +4274,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Brady, Bishop and Lewis - Reveal',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4285,7 +4285,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Williams-Camacho - Land',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4296,7 +4296,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Cole-Baker - Her',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4307,7 +4307,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Mckenzie, Crawford and Cruz - Dinner',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4318,7 +4318,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Caldwell-Stevens - Art',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4329,7 +4329,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Carter, Martin and Dominguez - Near',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4340,7 +4340,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Kerr Ltd - Couple',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4351,7 +4351,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Lopez Group - Plan',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4362,7 +4362,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Heath Inc - Maintain',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4373,7 +4373,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Jordan, Chavez and Flores - Southern',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4384,7 +4384,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Lucas-Ward - Record',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4395,7 +4395,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Bautista Ltd - Alone',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4406,7 +4406,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Rivera, Moon and Martin - Prove',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4417,7 +4417,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Fuentes-Reese - Result',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4428,7 +4428,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Webster-Allison - Generation',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4439,7 +4439,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Velasquez, Martin and Phillips - Take',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4450,7 +4450,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Young Inc - Million',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4461,7 +4461,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Dawson-Choi - Expect',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4472,7 +4472,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Graham-Hammond - Any',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4483,7 +4483,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Briggs, Garcia and Wheeler - Direction',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4494,7 +4494,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Stafford-Bell - Serious',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4505,7 +4505,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Jones, Foster and Merritt - Position',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4516,7 +4516,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Jackson, Cooper and Donovan - Money',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4527,7 +4527,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Bright, Willis and Stewart - Onto',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4538,7 +4538,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Castillo-Jennings - Authority',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4549,7 +4549,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Webb, Butler and Manning - Sign',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4560,7 +4560,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Hall, Smith and Bowers - Power',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4571,7 +4571,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Fry-Pittman - Teach',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4582,7 +4582,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Miller-Reed - Every',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4593,7 +4593,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Wilkins-Weber - Case',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4604,7 +4604,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Hatfield-Hall - Purpose',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4615,7 +4615,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Reyes-Smith - Expert',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4626,7 +4626,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Barnes Group - Participant',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4637,7 +4637,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Davis, Walker and Hayes - During',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4648,7 +4648,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Knight, Fernandez and Daniel - My',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4659,7 +4659,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Carson-Jacobs - Glass',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4670,7 +4670,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Jenkins, Vasquez and Wright - Unit',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4681,7 +4681,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Ellis-Miller - Anything',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4692,7 +4692,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Hunt-Mullins - Can',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4703,7 +4703,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Reyes Group - Second',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4714,7 +4714,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Hobbs-Sullivan - Recent',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4725,7 +4725,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Frank, Jimenez and Sheppard - Protect',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4736,7 +4736,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Miller Group - Ground',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4747,7 +4747,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Thomas, Sosa and Estrada - Opportunity',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4758,7 +4758,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Weaver, Brown and Turner - Although',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4769,7 +4769,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Johnson, Rodriguez and Palmer - Job',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4780,7 +4780,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Gomez-Arroyo - Mr',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4791,7 +4791,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Cummings-Reeves - Collection',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4802,7 +4802,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Nunez, Rivera and Park - Hotel',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4813,7 +4813,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Wells-Woods - Song',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4824,7 +4824,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Livingston-Ellis - Prevent',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4835,7 +4835,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Weiss Group - Full',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4846,7 +4846,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Mcdonald-Barker - Cover',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4857,7 +4857,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Boyer-Wong - Senior',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4868,7 +4868,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Reynolds-Thompson - Attorney',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4879,7 +4879,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Baker, Schwartz and Anderson - First',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4890,7 +4890,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Montes-Henderson - Hard',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4901,7 +4901,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Young-Liu - Create',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4912,7 +4912,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Aguilar, Smith and Cisneros - Modern',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4923,7 +4923,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Obrien LLC - Concern',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4934,7 +4934,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Ryan-Hansen - End',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4945,7 +4945,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Vazquez-Stokes - Citizen',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4956,7 +4956,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Butler-Hughes - Her',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4967,7 +4967,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Bray, Montgomery and Hale - Compare',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4978,7 +4978,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Brown, Mendoza and Estrada - When',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -4989,7 +4989,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Cook LLC - Base',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5000,7 +5000,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Thomas, West and Nguyen - Age',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5011,7 +5011,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Mckay-Smith - No',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5022,7 +5022,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Brown Ltd - Day',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5033,7 +5033,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Reeves, Reed and Love - Will',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5044,7 +5044,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Arellano, Baldwin and Greene - Trade',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5055,7 +5055,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Young, Ward and Cline - Goal',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5066,7 +5066,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Johnson, Holloway and Long - Deep',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5077,7 +5077,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Zamora Group - Police',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5088,7 +5088,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Hernandez, Berry and Mcdonald - Someone',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5099,7 +5099,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Martinez, Fields and Herrera - Out',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5110,7 +5110,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Lester Inc - Sound',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5121,7 +5121,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Pope Inc - Century',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5132,7 +5132,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Williams Ltd - Front',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5143,7 +5143,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Frazier-Reynolds - Career',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5154,7 +5154,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Matthews-Davis - Place',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5165,7 +5165,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Taylor Inc - Charge',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5176,7 +5176,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Harris-Gill - Suggest',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5187,7 +5187,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Garcia-Serrano - Test',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5198,7 +5198,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Welch-Roberson - Culture',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5209,7 +5209,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Morris, Griffith and Meyers - Evening',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5220,7 +5220,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Durham-Johnston - Model',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5231,7 +5231,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Kim-Jordan - Little',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5242,7 +5242,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Peterson, Fox and Avila - Class',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5253,7 +5253,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Foster-Smith - Look',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5264,7 +5264,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Khan, Scott and Smith - Successful',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5275,7 +5275,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Miller-Wilson - Performance',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5286,7 +5286,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Austin PLC - Process',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5297,7 +5297,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Mack-Bradford - Whether',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5308,7 +5308,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Hamilton Ltd - Could',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5319,7 +5319,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Ball-White - Present',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5330,7 +5330,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'White Ltd - Worry',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5341,7 +5341,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Colon Inc - Direction',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5352,7 +5352,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Cummings PLC - Often',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5363,7 +5363,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Jenkins-Peters - Present',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5374,7 +5374,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Sanchez and Sons - Include',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5385,7 +5385,7 @@ export const integrations = [
     source: 'Energy',
     entity_group: 'Carson Inc - Save',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5396,7 +5396,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Stewart Ltd - Open',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5407,7 +5407,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Anderson Group - Star',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5418,7 +5418,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Perez, Taylor and Jordan - Take',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5429,7 +5429,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Ortiz and Sons - Reveal',
     interval: '-',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5440,7 +5440,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Warren Group - Factor',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5451,7 +5451,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Davis and Sons - Yes',
     interval: 'Yearly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5462,7 +5462,7 @@ export const integrations = [
     source: 'Water',
     entity_group: 'Richardson-Stokes - Report',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5473,7 +5473,7 @@ export const integrations = [
     source: 'Utility',
     entity_group: 'Cain Inc - Idea',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5484,7 +5484,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Howard-Garcia - College',
     interval: 'Monthly',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
@@ -5495,7 +5495,7 @@ export const integrations = [
     source: 'Carbon',
     entity_group: 'Williams-Coleman - Natural',
     interval: 'ToU',
-    connector_url: 'Copy to Clipboard',
+    connector_url: 'https://api.connector-demo.com/v1/data',
     instructions:
       'multiple lines of instructions can go here to help the user\n                  understand how to set up the integration.',
   },
