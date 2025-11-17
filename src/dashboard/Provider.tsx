@@ -9,9 +9,6 @@ interface ProviderValues {
   sidebarOpen?: boolean;
   openSidebar?: () => void;
   closeSidebar?: () => void;
-  settingsDrawerOpen?: boolean;
-  openSettingsDrawer?: () => void;
-  closeSettingsDrawer?: () => void;
 }
 
 // create new context
@@ -19,7 +16,6 @@ const Context = React.createContext<ProviderValues>({});
 
 export function DashboardProvider({ children }: DashboardProviderProps) {
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
-  const [settingsDrawerOpen, setSettingsDrawerOpen] = React.useState(true);
   const location = useLocation();
 
   const openSidebar = React.useCallback(() => {
@@ -28,14 +24,6 @@ export function DashboardProvider({ children }: DashboardProviderProps) {
 
   const closeSidebar = React.useCallback(() => {
     setSidebarOpen(false);
-  }, []);
-
-  const openSettingsDrawer = React.useCallback(() => {
-    setSettingsDrawerOpen(true);
-  }, []);
-
-  const closeSettingsDrawer = React.useCallback(() => {
-    setSettingsDrawerOpen(false);
   }, []);
 
   // set the html tag overflow to hidden
@@ -53,16 +41,7 @@ export function DashboardProvider({ children }: DashboardProviderProps) {
   }, [location, sidebarOpen]);
 
   return (
-    <Context.Provider
-      value={{
-        sidebarOpen,
-        openSidebar,
-        closeSidebar,
-        settingsDrawerOpen,
-        openSettingsDrawer,
-        closeSettingsDrawer,
-      }}
-    >
+    <Context.Provider value={{ sidebarOpen, openSidebar, closeSidebar }}>
       {children}
     </Context.Provider>
   );
