@@ -1,3 +1,5 @@
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useLocation } from 'react-router-dom';
 import { settingsMenu } from '../pages/admin/settings/settingsMenuData';
 import CircleLinks from './CircleLinks';
@@ -13,7 +15,7 @@ const tenants = [
 ];
 
 export function TopBar() {
-  const { openSidebar } = useDashboardContext();
+  const { openSidebar, openSettingsDrawer, settingsDrawerOpen } = useDashboardContext();
   const location = useLocation();
 
   const handleTenantChange = (tenantName: string) => {
@@ -55,7 +57,16 @@ export function TopBar() {
               )}
             </div>
           </div>
-          <div className="relative ml-5 flex w-full items-center justify-end p-1 sm:right-auto sm:mr-0">
+          <div className="relative ml-5 flex w-full items-center justify-end gap-4 p-1 sm:right-auto sm:mr-0">
+            {location.pathname === '/admin/settings/integrations' && !settingsDrawerOpen && (
+              <button
+                onClick={openSettingsDrawer}
+                className="text-gray-700 hover:text-lime-600 focus:outline-none"
+                aria-label="Open settings drawer"
+              >
+                <FontAwesomeIcon icon={faChevronRight} className="h-5 w-5" />
+              </button>
+            )}
             <CircleLinks />
             <UserDropdownMenu />
           </div>

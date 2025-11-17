@@ -1,5 +1,6 @@
 import IntegrationCard from '../../../components/IntegrationCard';
 import IntegrationTable from '../../../components/IntegrationTable';
+import DrawerMenu from './DrawerMenu';
 // Import your images from assets
 import amazonImg from '@assets/icons/amazon.png';
 import kafkaImg from '@assets/icons/kafka.png';
@@ -43,23 +44,25 @@ const integrations = [
 
 export default function IntegrationsSettingsPage() {
   return (
-    <div>
-      <h3 className="text-2xl font-semibold text-gray-800 mb-4">Choose a Service to Connect</h3>
-      <p className=" text-sm text-gray-500">Connect BraveGen to other tools you use..</p>
+    <DrawerMenu>
+      <div className="p-6">
+        <h3 className="mb-4 text-2xl font-semibold text-gray-800">Choose a Service to Connect</h3>
+        <p className="text-sm text-gray-500">Connect BraveGen to other tools you use..</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
-        {integrations.map(item => (
-          <IntegrationCard
-            key={item.title}
-            image={item.image}
-            title={item.title}
-            description={item.description}
-          />
-        ))}
+        <div className="grid grid-cols-1 gap-4 p-6 md:grid-cols-2 lg:grid-cols-3">
+          {integrations.map(item => (
+            <IntegrationCard
+              key={item.title}
+              image={item.image}
+              title={item.title}
+              description={item.description}
+            />
+          ))}
+        </div>
+        <h3 className="mb-4 text-2xl font-semibold text-gray-800">Existing Connections</h3>
+
+        <IntegrationTable />
       </div>
-      <h3 className="text-2xl font-semibold text-gray-800 mb-4">Existing Connections</h3>
-
-      <IntegrationTable />
-    </div>
+    </DrawerMenu>
   );
 }
