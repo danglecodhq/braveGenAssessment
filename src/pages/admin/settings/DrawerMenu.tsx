@@ -12,31 +12,34 @@ export default function DrawerMenu({ children }: DrawerMenuProps) {
 
   return (
     <div className="flex h-full min-h-screen">
-      {/* Drawer */}
-      {isOpen && (
-        <div className="h-max w-64 overflow-hidden bg-transparent transition-all duration-300 ease-in-out">
-          <div className="relative bg-gray-50 p-4">
-            <button
-              onClick={() => setIsOpen(false)}
-              className="absolute right-4 top-4 text-gray-600 hover:text-gray-900 focus:outline-none"
-              aria-label="Close drawer"
-            >
-              <FontAwesomeIcon icon={faTimes} className="h-5 w-5" />
-            </button>
-            <div className="mt-6">
-              <SettingsMenu />
-            </div>
+      {/* Drawer - Persistent, slides in/out and pushes content */}
+      <div
+        className={`overflow-y-auto bg-gray-50 transition-all duration-300 ease-in-out ${
+          isOpen ? 'w-64' : 'w-0'
+        }`}
+      >
+        <div className="relative p-4">
+          {/* Close Button - inside drawer at top */}
+          <button
+            onClick={() => setIsOpen(false)}
+            className="mb-4 text-gray-600 hover:text-gray-900 focus:outline-none"
+            aria-label="Close drawer"
+          >
+            <FontAwesomeIcon icon={faTimes} className="h-5 w-5" />
+          </button>
+          <div>
+            <SettingsMenu />
           </div>
         </div>
-      )}
+      </div>
 
       {/* Main Content */}
       <div className="relative flex flex-1 flex-col">
-        {/* Toggle Button - positioned at middle-left, covered by drawer when open */}
+        {/* Toggle Button - floating, visible when drawer is closed */}
         {!isOpen && (
           <button
             onClick={() => setIsOpen(true)}
-            className="absolute left-4 top-1/2 z-10 -translate-y-1/2 text-gray-700 hover:text-lime-600 focus:outline-none"
+            className="fixed left-4 top-1/2 z-10 -translate-y-1/2 text-gray-700 hover:text-lime-600 focus:outline-none"
             aria-label="Open settings drawer"
           >
             <FontAwesomeIcon icon={faChevronRight} className="h-6 w-6" />
