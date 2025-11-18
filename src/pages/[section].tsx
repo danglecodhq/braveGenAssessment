@@ -1,5 +1,5 @@
 import { Navigate, useParams } from 'react-router-dom';
-import { Content } from '../../components/Content';
+import { Content } from '../components/Content';
 
 const TITLE_MAP: Record<string, string> = {
   actions: 'Actions',
@@ -17,11 +17,11 @@ type Props = {
   sectionKey?: string;
 };
 
-export default function AdminSectionPage(props: Props) {
+export default function DefaulPage(props: Props) {
   const params = useParams();
   const section = props.sectionKey ?? params.section;
 
-  if (!section) return <Navigate to="/admin" replace />;
+  if (!section) return <Navigate to="/" replace />;
 
   const title = TITLE_MAP[section] ?? section.charAt(0).toUpperCase() + section.slice(1);
 

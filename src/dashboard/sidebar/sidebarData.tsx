@@ -11,41 +11,41 @@ export const sidebarData = [
   {
     title: 'Insights',
     icon: <InsightIcon />,
-    link: '/admin/insights',
+    link: '/insights',
   },
   {
     title: 'Collect',
     icon: <CollectIcon />,
-    link: '/admin/collect',
+    link: '/collect',
   },
   {
     title: 'Reviews',
     icon: <ReviewsIcon />,
-    link: '/admin/reviews',
+    link: '/reviews',
   },
   {
     title: 'Carbon',
     icon: <CarbonIcon />,
-    link: '/admin/carbon',
+    link: '/carbon',
   },
   {
     title: 'Utilities',
     icon: <UtilitiesIcon />,
-    link: '/admin/utilities',
+    link: '/utilities',
   },
   {
     title: 'Reports',
     icon: <ReportsIcon />,
-    link: '/admin/reports',
+    link: '/reports',
   },
   {
     title: 'Actions',
     icon: <ActionsIcon />,
-    link: '/admin/actions',
+    link: '/actions',
   },
   {
     title: 'Settings',
     icon: <SettingIcon />,
-    link: '/admin/settings',
+    link: '/settings',
   },
 ];

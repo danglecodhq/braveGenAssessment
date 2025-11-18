@@ -1,6 +1,6 @@
-import { HomeIcon } from '../../../dashboard/sidebar/icons/HomeIcon';
-import { IntegrationsIcon } from '../../../dashboard/sidebar/icons/IntegrationsIcon';
-import { UsersIcon } from '../../../dashboard/sidebar/icons/UsersIcon';
+import { HomeIcon } from '../../dashboard/sidebar/icons/HomeIcon';
+import { IntegrationsIcon } from '../../dashboard/sidebar/icons/IntegrationsIcon';
+import { UsersIcon } from '../../dashboard/sidebar/icons/UsersIcon';
 
 import {
   faCamera,
@@ -67,18 +67,18 @@ export const settingsMenu = [
   {
     section: 'Organisation',
     items: [
-      { name: 'Manage', icon: HomeIcon, path: '/admin/settings/manage' },
-      { name: 'Users', icon: UsersIcon, path: '/admin/settings/users' },
-      { name: 'Tags', icon: TagIcon, path: '/admin/settings/tags' },
-      { name: 'Integrations', icon: IntegrationsIcon, path: '/admin/settings/integrations' },
+      { name: 'Manage', icon: HomeIcon, path: '/settings/manage' },
+      { name: 'Users', icon: UsersIcon, path: '/settings/users' },
+      { name: 'Tags', icon: TagIcon, path: '/settings/tags' },
+      { name: 'Integrations', icon: IntegrationsIcon, path: '/settings/integrations' },
     ],
   },
   {
     section: 'Utilities',
     items: [
-      { name: 'Configuration', icon: ConfigurationIcon, path: '/admin/settings/configuration' },
-      { name: 'Hierarchy', icon: HierarchyIcon, path: '/admin/settings/hierarchy' },
-      { name: 'Assets', icon: AssetsIcon, path: '/admin/settings/assets' },
+      { name: 'Configuration', icon: ConfigurationIcon, path: '/settings/configuration' },
+      { name: 'Hierarchy', icon: HierarchyIcon, path: '/settings/hierarchy' },
+      { name: 'Assets', icon: AssetsIcon, path: '/settings/assets' },
     ],
   },
   {
@@ -87,24 +87,24 @@ export const settingsMenu = [
       {
         name: 'Configuration',
         icon: ConfigurationIcon,
-        path: '/admin/settings/carbon/configuration',
+        path: '/settings/carbon/configuration',
       },
-      { name: 'Hierarchy', icon: HierarchyIcon, path: '/admin/settings/carbon/hierarchy' },
+      { name: 'Hierarchy', icon: HierarchyIcon, path: '/settings/carbon/hierarchy' },
       {
         name: 'Inventory Items',
         icon: InventoryItemsIcon,
-        path: '/admin/settings/carbon/inventory',
+        path: '/settings/carbon/inventory',
       },
       {
         name: 'Emission Factors',
         icon: EmissionFactorsIcon,
-        path: '/admin/settings/carbon/emission',
+        path: '/settings/carbon/emission',
       },
       { name: 'Snapshots', icon: SnapshotsIcon, disabled: true }, // Disabled item
     ],
   },
   {
     section: 'Displays',
-    items: [{ name: 'Manage', icon: DisplayManageIcon, path: '/admin/settings/displays/manage' }],
+    items: [{ name: 'Manage', icon: DisplayManageIcon, path: '/settings/displays/manage' }],
   },
 ];

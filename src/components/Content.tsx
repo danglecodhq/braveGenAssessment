@@ -12,7 +12,7 @@ export function Content(props: ContentProps) {
         <p className="mt-6 text-base leading-6 text-gray-500">Some content here...</p>
         <p className="mt-6 text-base leading-6 text-gray-500">
           Please click on the{' '}
-          <a href="/admin/settings">
+          <a href="/settings">
             <strong>Settings</strong>
           </a>{' '}
           menu item in the corner to visit main design

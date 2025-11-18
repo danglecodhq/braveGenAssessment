@@ -22,7 +22,7 @@ export default function SettingsSectionPage(props: Props) {
   const section = props.sectionKey ?? params.section;
 
   // If no section provided, redirect to the integrations subpage (default)
-  if (!section) return <Navigate to="/admin/settings/integrations" replace />;
+  if (!section) return <Navigate to="/settings/integrations" replace />;
 
   // If this ever matches the special integrations key, let the static
   // `integrations.tsx` file handle it (file-based routing gives static files

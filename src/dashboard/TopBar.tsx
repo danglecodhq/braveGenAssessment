@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { settingsMenu } from '../pages/admin/settings/settingsMenuData';
+import { settingsMenu } from '../pages/settings/settingsMenuData';
 import CircleLinks from './CircleLinks';
 import { useDashboardContext } from './Provider';
 import TenantDropdown from './TenantDropdown';
