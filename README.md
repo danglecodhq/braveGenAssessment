@@ -1,10 +1,6 @@
-# Salvia-kit Dashboard v5 React with vite
+# BraveGen Assessment Test
 
-![Salvia-kit Dashboard v5](https://www.salvia-kit.com/images/dashboards/dashv5.jpg)
-
-## 📋 Documentation
-
-You can see the documentation on [http://localhost:3000/admin/documentation](http://localhost:3000/admin/documentation)
+![BraveGen Assessment Test]
 
 ## Browser Support
 
@@ -25,7 +21,6 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 
 ## Getting started
 
