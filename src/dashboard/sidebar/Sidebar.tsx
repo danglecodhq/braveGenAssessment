@@ -50,7 +50,9 @@ export function Sidebar(props: SidebarProps) {
     >
       <div className={style.container}>
         <div className="sticky top-0 z-10 mb-6 flex h-20 items-center justify-center bg-slate-900">
-          <img src={Logo} width={30} height={30} alt="Logo" />
+          <a href="/admin/settings">
+            <img src={Logo} width={30} height={30} alt="Logo" />
+          </a>
         </div>
 
         <div className="flex grow flex-col">

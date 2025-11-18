@@ -10,6 +10,13 @@ export function Content(props: ContentProps) {
           {props.title || 'usage'} Page
         </h3>
         <p className="mt-6 text-base leading-6 text-gray-500">Some content here...</p>
+        <p className="mt-6 text-base leading-6 text-gray-500">
+          Please click on the{' '}
+          <a href="/admin/settings">
+            <strong>Settings</strong>
+          </a>{' '}
+          menu item in the corner to visit main design
+        </p>
       </div>
     </div>
   );
