@@ -2,10 +2,12 @@
 
 ## Architecture & Design Decisions
 
-Project Setup:
+**Project Setup:**
 
 - I am new to the React world, so I search for a good template [salvia-kit-dashboard-v5-react] and begin from there
-  File structure
+
+**File structure**
+
 - src\pages
 
   - the pages are put in src\pages
@@ -23,13 +25,13 @@ Project Setup:
 - src\assets  
    \* provided image for logo and icons are put there.src\assets\icons and src\assets\logos
 
-Sidebar Menu design:
+**Sidebar Menu design:**
 
 - Make the logo stick to the Top
 - the last menu Items stick to bottom
 - orther items displayed in the middle of the bar
 
-The main screen is Settings/Integrations with all the design details, this page will match the design picture.
+**The main screen** is Settings/Integrations with all the design details, this page will match the design picture.
 
 - First level menu items all lead to the same Content page, only different in the title.
 - Add a auto redirect for /Settings to land on /Settings/Integrations
@@ -39,35 +41,35 @@ Icons:
 
 - Icons folder is used to avoid duplication, reuse icon when matched. Named the icons sothat they don't tie to the paticular fontawesome icon, and can be changed easier
 
-The Top Bar:
+**The Top Bar:**
 
-Routing: vite-plugin-pages is used to generate routes from the pages directory. The app calls useRoutes(routes) in App.tsx, so file-system routes (including dynamic routes like [section].tsx) become React Router v6 routes. Static page files take precedence over dynamic ones, so you can either keep per-page files as tiny wrappers or delete them to let the dynamic page handle routing.
+- Dropdown list for select tenant
+  - The list of tenants can be filtered by typing in the textbox, the vertical scroll in the list is removed
+  - Code file is `/components/TenantDropdown.tsx`
+  - Tenants data is passed through from TopBar where it is used.
+- TopBar decisions: TopBar.tsx keeps high-level controls (tenant dropdown, active item indicator, CircleLinks : 3 circles at top righ corner, UserDropdownMenu: the signOut feature, DL is first 2 letters of the user Name dang le)
 
-Admin / Settings pages: A shared settings page pattern is used: a generic dynamic page ([section].tsx and [section].tsx) reads the URL segment via useParams() (or an optional sectionKey prop) and renders the shared Content component (Content.tsx) with a title mapping. The integrations page (integrations.tsx) is treated as a special, full-featured page (cards + table).
+**Routing:** vite-plugin-pages is used to generate routes from the pages directory. The app calls useRoutes(routes) in App.tsx, so file-system routes (including dynamic routes like [section].tsx) become React Router v6 routes. Static page files take precedence over dynamic ones, so you can either keep per-page files as tiny wrappers or delete them to let the dynamic page handle routing.
 
-Settings Menu & Drawer: The settings navigation lives in SettingsMenu.tsx and its source data is settingsMenuData.tsx. The menu has been moved out of the settings.tsx parent and is only shown inside the persistent drawer implemented in DrawerMenu.tsx. The drawer implements a persistent pattern (similar to MUI's persistent drawer): it slides in/out by changing its width while pushing the page content, and the drawer's UI contains a close control and retains its own scroll region.
+**Settings Menu:** The settings navigation lives in SettingsMenu.tsx and its source data is settingsMenuData.tsx. The menu only visilbe in Settings pages.
 
-TopBar decisions: TopBar.tsx keeps high-level controls (tenant dropdown, active item indicator, CircleLinks, UserDropdownMenu). The drawer toggle was intentionally removed from the TopBar for a focused UX and relocated to the integrations page (a floating open control appears only when the drawer is closed).
+**Integrations Page:**
 
-Componentization & Reuse: UI pieces are small and reusable: Content (generic page shell), IntegrationCard, and IntegrationTable for integration-related UI. Prefer composition and prop-driven components: data (arrays of integrations, table rows) is passed into thin presentational components.
+- The Cards - IntegrationCard.tsx
+  - components/Integrations/IntegrationCard
+  - data is in /pages/settings/integrations.tsx where the cards are used.
+- The table component - IntegrationTable.tsx
+  - search box: by integrations or name
+  - data: src\components\Integrations\integrationTableData.ts [used AI to mocked up 500 rows]
+  - pager
+  - sort by integrations
+  - badge styles
+  - copied to clip board
+  - popover to view instructions
+  - 2 prompt boxes [delete/edit] sharing the same component, different styles.
 
-State & Context: Global layout state (sidebar open/close) is provided from Provider.tsx. The settings drawer was simplified to manage its open state locally in DrawerMenu to keep its behavior self-contained and avoid overloading global context—this makes the drawer component portable and easier to reuse or test.
-
-Styling: Tailwind CSS is used for styling. Utility-first classes live inline in JSX, while tailwind.config.cjs and postcss.config.cjs control build-time behavior. Use the existing utilities and breakpoints for responsive layouts.
-
-Tables & Data UI: Tables and data lists are implemented as presentational components (e.g., IntegrationTable.tsx) with the intent of keeping sorting, paging, and actions in the parent or a small hook if needed. This keeps the components testable and easy to refactor into remote-data variants.
-
-Project Structure (important files)
-
-Pages / Routing: pages (file-based routes via vite-plugin-pages) — check admin and settings for admin-related routes.
-Layout & Shell: Layout.tsx, TopBar.tsx, Sidebar.tsx, and Provider.tsx.
-Settings menu & drawer: SettingsMenu.tsx, settingsMenuData.tsx, DrawerMenu.tsx, integrations.tsx.
-Shared page content: Content.tsx — used by many admin pages to provide a consistent page look and title.
-Integration components: IntegrationCard.tsx, IntegrationTable.tsx.
-How to add a new admin/settings page
-
-Create src/pages/admin/settings/<slug>.tsx for a custom page, or
-Rely on the dynamic route: add a mapping to the title map in [section].tsx and Content.tsx will render the title automatically for /admin/settings/<slug>.
+**Drawer effect to the menu:**
+Try making the menu side in from the left, the code is working but still under development in this branch: https://github.com/danglecodhq/braveGenAssessment/tree/drawerMenuIngerations
 
 ## Getting started
 
