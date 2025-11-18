@@ -1,5 +1,5 @@
-import IntegrationCard from '../../components/IntegrationCard';
-import IntegrationTable from '../../components/IntegrationTable';
+import IntegrationCard from '../../components/Integrations/IntegrationCard';
+import IntegrationTable from '../../components/Integrations/IntegrationTable';
 // Import your images from assets
 import amazonImg from '@assets/icons/amazon.png';
 import kafkaImg from '@assets/icons/kafka.png';

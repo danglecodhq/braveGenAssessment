@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'tailwindcss/tailwind.css';
 import App from './App';
-import { DashboardLayout } from './dashboard/Layout';
+import { DashboardLayout } from './components/Layout';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

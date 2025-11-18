@@ -1,6 +1,6 @@
-import { HomeIcon } from '../../dashboard/sidebar/icons/HomeIcon';
-import { IntegrationsIcon } from '../../dashboard/sidebar/icons/IntegrationsIcon';
-import { UsersIcon } from '../../dashboard/sidebar/icons/UsersIcon';
+import { HomeIcon } from '../../components/sidebar/icons/HomeIcon';
+import { IntegrationsIcon } from '../../components/sidebar/icons/IntegrationsIcon';
+import { UsersIcon } from '../../components/sidebar/icons/UsersIcon';
 
 import {
   faCamera,

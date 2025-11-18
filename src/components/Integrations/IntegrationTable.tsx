@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { integrations } from '../data/integrations';
+import { integrations } from './integrationTableData';
 
 import { faExternalLinkAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
