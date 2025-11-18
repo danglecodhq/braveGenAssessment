@@ -6,14 +6,15 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'tailwindcss/tailwind.css';
 import App from './App';
-import { DashboardLayout } from './dashboard/Layout';
+//import { DashboardLayout } from './dashboard/Layout';
+import { DashboardLayout2 } from './dashboard/DashboardLayout2';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Router>
-      <DashboardLayout>
+      <DashboardLayout2>
         <App />
-      </DashboardLayout>
+      </DashboardLayout2>
     </Router>
     ,
   </React.StrictMode>

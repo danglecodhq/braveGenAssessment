@@ -3,7 +3,7 @@ import { settingsMenu } from './settingsMenuData';
 
 export default function SettingsMenu() {
   return (
-    <aside className="w-64 bg-gray-100 h-max">
+    <aside className="bg-gray-100 h-max">
       {settingsMenu.map(section => (
         <div key={section.section} className="mb-4">
           <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wide">

@@ -24,7 +24,7 @@ export function TopBar() {
   const activeItem = settingsMenu.flatMap(s => s.items).find(i => i.path === location.pathname);
 
   return (
-    <header className="relative z-10 h-16 w-full items-center bg-white shadow md:h-20">
+    <header className="relative z-10 h-16 w-full items-center shadow md:h-20">
       <div className="relative mx-auto flex h-full flex-col justify-center px-3">
         <div className="relative flex w-full items-center pl-1 sm:ml-0 sm:pr-2">
           <div className="relative left-0 flex w-3/4">
